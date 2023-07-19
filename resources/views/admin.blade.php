@@ -22,15 +22,6 @@
     </div>
 </div> --}}
 
-@php
-                            
-
-
-  
-print_r($id);
-
-@endphp
-
 
         <div class="admin-card">
             <div class="row">
