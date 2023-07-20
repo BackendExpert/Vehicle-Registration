@@ -17,6 +17,8 @@
 
     <!-- Styles -->
 
+    <link rel="icon" type="image/x-icon" href="https://www.nicepng.com/png/detail/800-8007006_png-file-vehicle-registration-certificate-icon.png">
+
     <script src="{{ asset('js/script.js') }}"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
