@@ -20,7 +20,9 @@
                     <h2>Features</h2>
                 </div>
                 <div class="footer-body">
-                    
+                    <ul>
+                        <li><a href="">Features 1</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-lg-4"></div>
