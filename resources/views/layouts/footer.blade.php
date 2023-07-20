@@ -12,7 +12,7 @@
                     <h2>Vehicle Registration</h2>
                 </div>
                 <div class="footer-body">
-                    Vehicle Registration developed in 2023
+                    Vehicle Registration developed in 2023.
                 </div>
             </div>
             <div class="col-lg-4"></div>
