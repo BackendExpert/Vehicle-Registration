@@ -4,7 +4,7 @@
     <style>
         .home-content{
             background-image: url(https://wallpapercave.com/dwp1x/wp8825456.jpg);
-            height: 100vh;
+            height: 80vh;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
