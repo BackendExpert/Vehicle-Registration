@@ -17,6 +17,9 @@
             </div>
             <div class="col-lg-4">
                 <div class="footer-title">
+                    <h2>Features</h2>
+                </div>
+                <div class="footer-body">
                     
                 </div>
             </div>
