@@ -22,6 +22,9 @@
                 <div class="footer-body">
                     <ul>
                         <li><a href="">Features 1</a></li>
+                        <li><a href="">Features 2</a></li>
+                        <li><a href="">Features 3</a></li>
+                        <li><a href="">Features 4</a></li>
                     </ul>
                 </div>
             </div>
