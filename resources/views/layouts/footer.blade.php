@@ -15,7 +15,11 @@
                     Vehicle Registration developed in 2023.
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="footer-title">
+                    
+                </div>
+            </div>
             <div class="col-lg-4"></div>
         </div>
     </div>
