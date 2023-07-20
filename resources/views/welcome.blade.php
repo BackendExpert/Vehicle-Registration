@@ -5,6 +5,9 @@
         .home-content{
             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFH52NdAGrd-X_R0Ca-K7jtZkICsFusBUTC8C-RDyLy6VfDqXGF8Kc1CHZg2zkGJ1SntQ&usqp=CAU);
             height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 
