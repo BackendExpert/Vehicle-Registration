@@ -47,6 +47,11 @@
     .features{
         background: green;
     }
+    .content2-title{
+        font-size: 35px;
+        font-weight: 500;
+        padding: 35px 20px;
+    }
 </style>
 
 <body class="antialiased">
