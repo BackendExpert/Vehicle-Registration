@@ -72,7 +72,7 @@
                             <div class="box green">
                                 <div class="row">
                                     <div class="col-lg-8" style="padding-top: 18px; font-size: 18px;" >
-                                        <span class="box-title">Vehicle Owners</span>
+                                        <span class="box-title">Owners</span>
                                     </div>
                                     <div class="col-lg-2" style="text-align: left;">
                                         <span style="font-size: 50px">55</span>
@@ -87,7 +87,7 @@
                             <div class="box blue">
                                 <div class="row">
                                     <div class="col-lg-8" style="padding-top: 18px; font-size: 18px;" >
-                                        <span class="box-title">Registered Vehicles</span>
+                                        <span class="box-title">Vehicles</span>
                                     </div>
                                     <div class="col-lg-2" style="text-align: left;">
                                         <span style="font-size: 50px">55</span>
@@ -102,7 +102,7 @@
                             <div class="box orange">
                                 <div class="row">
                                     <div class="col-lg-8" style="padding-top: 18px; font-size: 18px;" >
-                                        <span class="box-title">Vehicle Owners</span>
+                                        <span class="box-title">Views</span>
                                     </div>
                                     <div class="col-lg-2" style="text-align: left;">
                                         <span style="font-size: 50px">55</span>
