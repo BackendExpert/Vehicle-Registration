@@ -10,6 +10,7 @@
             background-size: cover;
             padding: 200px;
             text-align: center;
+            color: white;
         }
     </style>
 
