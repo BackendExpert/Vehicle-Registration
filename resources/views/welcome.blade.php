@@ -13,7 +13,7 @@
             color: white;
         }
         .section-1{
-            padding: 40px 0;
+            padding: 0;
         }
         .box{
             border: none;
