@@ -127,7 +127,9 @@
             <div class="content-2">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="content2-title"></div>
+                        <div class="content2-title">
+                            Latest Updates
+                        </div>
                     </div>
                     <div class="col-lg-6"></div>
                 </div>
