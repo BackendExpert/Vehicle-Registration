@@ -62,7 +62,7 @@
                                         Vehicle Owners
                                     </div>
                                     <div class="col-lg-4" style="text-align: right;">
-                                        55
+                                        <span style="font-size: 60px">55</span>
                                     </div>
                                     <div class="col-lg-4" style="text-align: left;">
                                         <i class="fas fa-shuttle-van" style="font-size: 50px;"></i>
