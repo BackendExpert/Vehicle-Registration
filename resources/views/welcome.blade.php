@@ -49,8 +49,8 @@
     .features {
         background: green;
     }
-
-    /* .content2-title {
+/* 
+    .content2-title {
         font-size: 35px;
         font-weight: 500;
         padding: 35px 20px;
@@ -167,7 +167,6 @@
     <div class="content-2">
         <div class="row">
             <div class="col-lg-6 latest-update">
-                <div class="container">
                     <div class="content2-title">
                         Latest Updates
                     </div>
@@ -188,10 +187,8 @@
                         ut similique maiores? Enim dolorem iste quae cum quam officia laboriosam? Quod eum consequatur
                         repudiandae maiores dolore.
                     </div>
-                </div>
             </div>
             <div class="col-lg-6 features">
-                <div class="container">
                     <div class="content2-title">
                         Site Features
                     </div>
@@ -212,7 +209,6 @@
                         magni repudiandae assumenda facere vitae odio nam rem accusamus aliquid cum placeat porro
                         repellendus laborum, laboriosam delectus.
                     </div>
-                </div>
             </div>
         </div>
     </div>
