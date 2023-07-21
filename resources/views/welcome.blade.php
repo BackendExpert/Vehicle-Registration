@@ -101,7 +101,7 @@
                             <div class="box green">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <span class="content-title">Owners</span>
+                                        <span class="content-title">VIews</span>
                                     </div>
                                     <div class="col-lg-2">
                                         <span style="font-size: 30px">55</span>
