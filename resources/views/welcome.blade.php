@@ -124,6 +124,15 @@
                 </div>
             </div>
 
+            <div class="content-2">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content2-title"></div>
+                    </div>
+                    <div class="col-lg-6"></div>
+                </div>
+            </div>
+
         </div>
     </body>
 
