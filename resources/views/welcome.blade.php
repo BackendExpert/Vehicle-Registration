@@ -22,11 +22,14 @@
             padding: 20px 40px;
         }
         .green{
-            background-color: green;
+            background-color: rgb(12, 180, 12);
         }
         .blue{
             background: rgb(80, 80, 255);
             color:white;
+        }
+        .orange{
+            background: orange;
         }
         .box-title{
             font-size: 28px;
