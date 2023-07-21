@@ -59,6 +59,10 @@
     .conetent2-body {
         padding: 40px 20px;
     }
+    .btn-login{
+        margin-top: 20px;
+        padding: 15px 35px;
+    }
 </style>
 
 <body class="antialiased">
