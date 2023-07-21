@@ -27,6 +27,7 @@
         }
         .blue{
             background: rgb(64, 64, 248);
+            color: white;
         }
         .content-title{
             font-size: 30px;
