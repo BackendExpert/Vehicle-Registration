@@ -2,7 +2,7 @@
     footer{
         padding: 50px 0;
         background-image: url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
-        background-image: linear-gradient(to bottom, rgba(70, 70, 70, 0.52), rgba(26, 26, 26, 0.73)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
+        background-image: linear-gradient(to bottom, rgba(70, 70, 70, 0.52), rgba(26, 26, 26, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
         color: white;
         background-position: center;
         background-repeat: no-repeat;
