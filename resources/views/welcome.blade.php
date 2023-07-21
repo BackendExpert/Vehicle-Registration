@@ -84,8 +84,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                Owner
+                            </div>
+                            <div class="col-lg-2">
+                                55
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-2">
+                                <i class="fas fa-shuttle-van"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                Owner
+                            </div>
+                            <div class="col-lg-2">
+                                55
+                            </div>
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-2">
+                                <i class="fas fa-shuttle-van"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
