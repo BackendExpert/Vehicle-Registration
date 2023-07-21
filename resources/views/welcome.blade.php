@@ -165,20 +165,22 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="title-content2">
-                Latest Update
+    <div class="content2">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="title-content2">
+                    Latest Update
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="title-content2">
+                    Latest Update
+                </div>
             </div>
         </div>
-        <div class="col-lg-6">
-            <div class="title-content2">
-                Latest Update
-            </div>
-        </div>
+    
     </div>
 
-    </div>
 </body>
 
 @include('layouts.footer')
