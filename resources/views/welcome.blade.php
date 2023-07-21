@@ -71,7 +71,7 @@
                         <div class="col-lg-4">
                             <div class="box green">
                                 <div class="row">
-                                    <div class="col-lg-8" style="padding-top: 18px; font-size: 18px;" >
+                                    <div class="col-lg-6" style="padding-top: 18px; font-size: 18px;" >
                                         <span class="box-title">Owners</span>
                                     </div>
                                     <div class="col-lg-2" style="text-align: left;">
@@ -87,7 +87,7 @@
                         <div class="col-lg-4">
                             <div class="box blue">
                                 <div class="row">
-                                    <div class="col-lg-8" style="padding-top: 18px; font-size: 18px;" >
+                                    <div class="col-lg-6" style="padding-top: 18px; font-size: 18px;" >
                                         <span class="box-title">Vehicles</span>
                                     </div>
                                     <div class="col-lg-2" style="text-align: left;">
