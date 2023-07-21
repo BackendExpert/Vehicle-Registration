@@ -108,7 +108,7 @@
                                         <span style="font-size: 50px">55</span>
                                     </div>
                                     <div class="col-lg-2" style="text-align: left;">
-                                        <i class="fas fa-shuttle-van" style="font-size: 50px; padding-top: 18px;"></i>
+                                        <i class="fas fa-eye" style="font-size: 50px; padding-top: 18px;"></i>
                                     </div>
                                 </div>
                             </div>
