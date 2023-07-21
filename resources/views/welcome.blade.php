@@ -47,16 +47,45 @@
             </div>
             <div class="container">
                 <div class="section-1">
-                    <div class="box">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                Vehicle Owners
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        Vehicle Owners
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <i class="fas fa-shuttle-van"></i>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <i class="fas fa-shuttle-van"></i>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        Vehicle Owners
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <i class="fas fa-shuttle-van"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        Vehicle Owners
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <i class="fas fa-shuttle-van"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
