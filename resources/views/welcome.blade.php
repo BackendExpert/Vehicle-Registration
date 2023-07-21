@@ -19,6 +19,9 @@
             border: none;
             border-radius: 2px;
         }
+        .green{
+            background-color: green;
+        }
     </style>
 
     <body class="antialiased">
