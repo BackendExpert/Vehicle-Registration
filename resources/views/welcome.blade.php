@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="box green">
+                            <div class="box blue">
                                 <div class="row">
                                     <div class="col-lg-8" style="padding-top: 18px; font-size: 18px;" >
                                         <span class="box-title">Vehicle Owners</span>
@@ -92,7 +92,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="box green">
+                            <div class="box orange">
                                 <div class="row">
                                     <div class="col-lg-8" style="padding-top: 18px; font-size: 18px;" >
                                         <span class="box-title">Vehicle Owners</span>
