@@ -16,7 +16,8 @@
             padding: 40px 0;
         }
         .box{
-
+            border: none;
+            border-radius: 2px;
         }
     </style>
 
