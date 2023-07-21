@@ -80,7 +80,7 @@
                             </div>
                             <div class="col-lg-2"></div>
                             <div class="col-lg-2">
-                                
+                                <i class="fas fa-shuttle-van"></i>
                             </div>
                         </div>
                     </div>
