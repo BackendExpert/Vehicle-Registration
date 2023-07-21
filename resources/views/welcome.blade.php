@@ -72,7 +72,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="box green">
-                                <div class="row">
+                                <div class="row" >
                                     <div class="col-lg-6" style="padding-top: 18px; font-size: 18px;" >
                                         <span class="box-title">Owners</span>
                                     </div>
