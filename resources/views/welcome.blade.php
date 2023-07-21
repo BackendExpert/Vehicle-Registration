@@ -15,6 +15,9 @@
         .section-1{
             padding: 40px 0;
         }
+        .box{
+
+        }
     </style>
 
     <body class="antialiased">
@@ -49,7 +52,7 @@
                 <div class="section-1">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="box">
+                            <div class="box green">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         Vehicle Owners
