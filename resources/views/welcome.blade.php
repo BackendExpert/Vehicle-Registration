@@ -62,10 +62,11 @@
 
             @endif             --}}
 
-            <div class="home-content">
-                <h1>Welcome to Vehicle Registration</h1> 
-            </div>
+
             <div class="container">
+                <div class="home-content">
+                    <h1>Welcome to Vehicle Registration</h1> 
+                </div>
                 <div class="section-1">
                     <div class="row">
                         <div class="col-lg-4">
