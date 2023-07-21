@@ -76,6 +76,12 @@
         background: orange;
         padding: 20px 40px;
     }
+    .content2{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 </style>
 
 <body class="antialiased">
@@ -167,12 +173,12 @@
 
     <div class="content2">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 latest-update">
                 <div class="title-content2">
                     Latest Update
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 features">
                 <div class="title-content2">
                     Latest Update
                 </div>
