@@ -25,6 +25,9 @@
         .green{
             background-color: green;
         }
+        .blue{
+            background: blue;
+        }
         .content-title{
             font-size: 30px;
             font-weight: 500;
