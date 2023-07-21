@@ -15,11 +15,12 @@
         .section-1{
             padding: 0;
         }
-        .box{
+        .box-green{
             border: none;
             border-radius: 2px;
             width: 100%;
             padding: 20px 40px;
+            background-color: green;
         }
         
     </style>
@@ -58,7 +59,7 @@
             <div class="content-1">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="box green">
+                        <div class="box-green">
                             <div class="row">
                                 <div class="col-lg-6">
                                     Owner
@@ -74,7 +75,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box green">
+                        <div class="box-green">
                             <div class="row">
                                 <div class="col-lg-6">
                                     Owner
