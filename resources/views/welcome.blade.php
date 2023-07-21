@@ -65,6 +65,13 @@
         border: 2px solid orange;
         border-radius: 5px;
         background: transparent;
+        color: orange;
+        transition: 0.5s;
+    }
+    .btn-login:hover{
+        cursor: pointer;
+        color: black;
+        background: orange;
     }
 </style>
 
