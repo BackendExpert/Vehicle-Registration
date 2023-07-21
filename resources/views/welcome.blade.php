@@ -58,14 +58,14 @@
                         <div class="col-lg-4">
                             <div class="box green">
                                 <div class="row">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-4" style="padding-top: 18px; font-size: 50px;" >
                                         Vehicle Owners
                                     </div>
                                     <div class="col-lg-4" style="text-align: right;">
-                                        <span style="font-size: 60px">55</span>
+                                        <span style="font-size: 50px">55</span>
                                     </div>
                                     <div class="col-lg-4" style="text-align: left;">
-                                        <i class="fas fa-shuttle-van" style="font-size: 50px;"></i>
+                                        <i class="fas fa-shuttle-van" style="font-size: 50px; padding-top: 18px;"></i>
                                     </div>
                                 </div>
                             </div>
