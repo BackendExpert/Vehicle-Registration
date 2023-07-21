@@ -29,6 +29,9 @@
             background: rgb(64, 64, 248);
             color: white;
         }
+        .orange{
+            background: orange;
+        }
         .content-title{
             font-size: 30px;
             font-weight: 500;
