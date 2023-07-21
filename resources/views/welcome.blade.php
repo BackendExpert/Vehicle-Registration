@@ -75,6 +75,9 @@
         background: orange;
         padding: 20px 40px;
     }
+    .content-2{
+        
+    }
 </style>
 
 <body class="antialiased">
