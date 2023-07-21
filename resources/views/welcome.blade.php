@@ -45,9 +45,10 @@
             <div class="home-content">
                 <h1>Welcome to Vehicle Registration</h1> 
             </div>
+            <div class="container">
+                <div class="section-1">
 
-            <div class="section-1">
-
+                </div>
             </div>
 
         </div>
