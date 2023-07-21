@@ -8,7 +8,7 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            padding: 200px;
+            padding: 200px 0;
             text-align: center;
             color: white;
         }
