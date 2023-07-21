@@ -67,11 +67,13 @@
         background: transparent;
         color: orange;
         transition: 0.5s;
+        font-size: 20px;
     }
     .btn-login:hover{
         cursor: pointer;
         color: black;
         background: orange;
+        padding: 20px 40px;
     }
 </style>
 
