@@ -3,6 +3,9 @@
         padding: 50px 0;
         background-image: url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
         color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .footer-title{
         padding: 20px 0;
