@@ -26,7 +26,7 @@
             background-color: green;
         }
         .blue{
-            background: blue;
+            background: rgb(64, 64, 248);
         }
         .content-title{
             font-size: 30px;
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="box green">
+                            <div class="box blue">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <span class="content-title">Vehicle</span>
