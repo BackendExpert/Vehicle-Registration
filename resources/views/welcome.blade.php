@@ -68,60 +68,13 @@
                 </div>                
             </div>
 
-                <div class="section-1">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="box green">
-                                <div class="row" >
-                                    <div class="col-lg-6" style="padding-top: 18px; font-size: 18px;" >
-                                        <span class="box-title">Owners</span>
-                                    </div>
-                                    <div class="col-lg-2" style="text-align: left;">
-                                        <span style="font-size: 50px">55</span>
-                                    </div>
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-2" style="text-align: left;">
-                                        <i class="fas fa-users" style="font-size: 50px; padding-top: 18px;"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="box blue">
-                                <div class="row">
-                                    <div class="col-lg-6" style="padding-top: 18px; font-size: 18px;" >
-                                        <span class="box-title">Vehicles</span>
-                                    </div>
-                                    <div class="col-lg-2" style="text-align: left;">
-                                        <span style="font-size: 50px">55</span>
-                                    </div>
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-2" style="text-align: left;">
-                                        <i class="fas fa-shuttle-van" style="font-size: 50px; padding-top: 18px;"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="box orange">
-                                <div class="row">
-                                    <div class="col-lg-6" style="padding-top: 18px; font-size: 18px;" >
-                                        <span class="box-title">Views</span>
-                                    </div>
-                                    <div class="col-lg-2" style="text-align: left;">
-                                        <span style="font-size: 50px">55</span>
-                                    </div>
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-2" style="text-align: left;">
-                                        <i class="fas fa-eye" style="font-size: 50px; padding-top: 18px;"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                        
-                    </div>
-
+            <div class="content-1">
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4"></div>
                 </div>
-
+            </div>
 
         </div>
     </body>
