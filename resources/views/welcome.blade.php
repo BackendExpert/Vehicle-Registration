@@ -48,6 +48,7 @@
 
     .features {
         background: green;
+        margin-right: -110px;
     }
 
     .content2-title {
