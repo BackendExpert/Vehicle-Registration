@@ -138,18 +138,27 @@
     <div class="content-2">
         <div class="row">
             <div class="col-lg-6 latest-update">
-                <div class="content2-title">
-                    Latest Updates
-                </div>
-                <div class="conetent2-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium porro saepe tempora
-                    dignissimos ullam inventore laboriosam ea. Possimus odio ullam dicta, delectus aperiam impedit
-                    placeat quia ab sapiente eligendi.
+                <div class="container">
+                    <div class="content2-title">
+                        Latest Updates
+                    </div>
+                    <div class="conetent2-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium porro saepe tempora
+                        dignissimos ullam inventore laboriosam ea. Possimus odio ullam dicta, delectus aperiam impedit
+                        placeat quia ab sapiente eligendi.
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="content2-title">
-                    Site Features
+            <div class="col-lg-6 features">
+                <div class="container">
+                    <div class="content2-title">
+                        Site Features
+                    </div>
+                    <div class="conetent2-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium porro saepe tempora
+                        dignissimos ullam inventore laboriosam ea. Possimus odio ullam dicta, delectus aperiam impedit
+                        placeat quia ab sapiente eligendi.
+                    </div>
                 </div>
             </div>
         </div>
