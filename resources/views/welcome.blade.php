@@ -52,6 +52,9 @@
         font-weight: 500;
         padding: 35px 20px;
     }
+    .conetent2-body{
+        padding: 40px 20px;
+    }
 </style>
 
 <body class="antialiased">
