@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        
+                                        55
                                     </div>
                                 </div>
                             </div>
@@ -75,6 +75,11 @@
                                         <i class="fas fa-shuttle-van"></i>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        55
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -85,6 +90,11 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <i class="fas fa-shuttle-van"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        55
                                     </div>
                                 </div>
                             </div>
