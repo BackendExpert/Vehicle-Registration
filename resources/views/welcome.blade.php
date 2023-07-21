@@ -21,20 +21,7 @@
             width: 100%;
             padding: 20px 40px;
         }
-        .green{
-            background-color: rgb(12, 180, 12);
-        }
-        .blue{
-            background: rgb(80, 80, 255);
-            color:white;
-        }
-        .orange{
-            background: orange;
-        }
-        .box-title{
-            font-size: 28px;
-            font-weight: 500;
-        }
+        
     </style>
 
     <body class="antialiased">
@@ -71,8 +58,8 @@
             <div class="content-1">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="row">
-                            <div class="box green">
+                        <div class="box green">
+                            <div class="row">
                                 <div class="col-lg-6">
                                     Owner
                                 </div>
@@ -87,8 +74,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="row">
-                            <div class="box green">
+                        <div class="box green">
+                            <div class="row">
                                 <div class="col-lg-6">
                                     Owner
                                 </div>
@@ -103,8 +90,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="row">
-                            <div class="box green">
+                        <div class="box green">
+                            <div class="row">
                                 <div class="col-lg-6">
                                     Owner
                                 </div>
@@ -118,6 +105,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     
                 </div>
             </div>
