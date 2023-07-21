@@ -12,6 +12,9 @@
             text-align: center;
             color: white;
         }
+        .section-1{
+            padding: 40px 0;
+        }
     </style>
 
     <body class="antialiased">
@@ -41,6 +44,10 @@
 
             <div class="home-content">
                 <h1>Welcome to Vehicle Registration</h1> 
+            </div>
+
+            <div class="section-1">
+
             </div>
 
         </div>
