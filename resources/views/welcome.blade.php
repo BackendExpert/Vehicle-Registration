@@ -50,7 +50,7 @@
         background: green;
     }
 
-    .content2-title {
+    /* .content2-title {
         font-size: 35px;
         font-weight: 500;
         padding: 35px 20px;
@@ -58,7 +58,7 @@
 
     .conetent2-body {
         padding: 40px 20px;
-    }
+    } */
     .btn-login{
         margin-top: 20px;
         padding: 15px 35px;
