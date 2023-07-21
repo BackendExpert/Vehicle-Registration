@@ -26,6 +26,7 @@
         }
         .blue{
             background: rgb(80, 80, 255);
+            color:white;
         }
         .box-title{
             font-size: 28px;
