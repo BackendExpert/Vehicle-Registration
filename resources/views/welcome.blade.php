@@ -24,6 +24,9 @@
         .green{
             background-color: green;
         }
+        .content-title{
+            font-size: 30px;
+        }
     </style>
 
     <body class="antialiased">
@@ -60,10 +63,10 @@
             <div class="content-1">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="box-green">
+                        <div class="box green">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    Owner
+                                    <span class="content-title">Owners</span>
                                 </div>
                                 <div class="col-lg-2">
                                     55
@@ -76,7 +79,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="box-green">
+                        <div class="box green">
                             <div class="row">
                                 <div class="col-lg-6">
                                     Owner
