@@ -131,7 +131,11 @@
                             Latest Updates
                         </div>
                     </div>
-                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <div class="content2-title">
+                            Site Features
+                        </div>
+                    </div>
                 </div>
             </div>
 
