@@ -15,14 +15,15 @@
         .section-1{
             padding: 0;
         }
-        .box-green{
+        .box{
             border: none;
             border-radius: 2px;
             width: 100%;
-            padding: 20px 40px;
+            padding: 20px 40px;            
+        }
+        .green{
             background-color: green;
         }
-        
     </style>
 
     <body class="antialiased">
