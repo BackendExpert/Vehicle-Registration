@@ -62,7 +62,9 @@
     .btn-login{
         margin-top: 20px;
         padding: 15px 35px;
-        border: 2px solid gold;
+        border: 2px solid orange;
+        border-radius: 5px;
+        background: transparent;
     }
 </style>
 
