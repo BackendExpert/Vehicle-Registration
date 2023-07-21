@@ -1,7 +1,7 @@
 <style>
     footer{
         padding: 50px 0;
-        background: rgb(14, 14, 14);
+        background-image: url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
         color: white;
     }
     .footer-title{
