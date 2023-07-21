@@ -58,6 +58,11 @@
                                         <i class="fas fa-shuttle-van"></i>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
