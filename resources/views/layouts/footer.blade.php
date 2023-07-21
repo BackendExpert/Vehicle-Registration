@@ -26,7 +26,7 @@
                     <h2>About Us</h2>
                 </div>
                 <div class="footer-body">
-                    Online Chat Application.
+                    Online Vehicle Registration
                 </div>
             </div>
             <div class="col-lg-4">
