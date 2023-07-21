@@ -41,18 +41,22 @@
         font-size: 30px;
         font-weight: 500;
     }
-    .latest-update{
+
+    .latest-update {
         background: orange;
     }
-    .features{
+
+    .features {
         background: green;
     }
-    .content2-title{
+
+    .content2-title {
         font-size: 35px;
         font-weight: 500;
         padding: 35px 20px;
     }
-    .conetent2-body{
+
+    .conetent2-body {
         padding: 40px 20px;
     }
 </style>
@@ -151,9 +155,21 @@
                         Latest Updates
                     </div>
                     <div class="conetent2-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium porro saepe tempora
-                        dignissimos ullam inventore laboriosam ea. Possimus odio ullam dicta, delectus aperiam impedit
-                        placeat quia ab sapiente eligendi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas architecto illo asperiores
+                        explicabo neque illum modi, tenetur velit libero cum soluta quam voluptatem iusto maxime iure
+                        minima, corrupti accusamus!
+                        Cum unde vel accusantium illum id suscipit sunt? Magnam numquam est nostrum qui porro quae
+                        exercitationem id, minus saepe ea aspernatur adipisci odio animi, doloremque dolorem! Molestiae
+                        cupiditate assumenda perspiciatis.
+                        Debitis repellendus vitae incidunt placeat quo fugiat omnis consequatur assumenda veritatis, at
+                        velit earum vero unde possimus recusandae voluptatibus cum reiciendis numquam illum mollitia ad?
+                        Omnis rem similique at totam.
+                        Harum, maxime vitae necessitatibus saepe magnam suscipit doloremque eveniet accusantium
+                        laudantium? Cupiditate possimus blanditiis quam adipisci distinctio alias neque aliquam qui,
+                        unde ut earum sit tempore deserunt repudiandae, maiores beatae!
+                        Vitae libero aliquid dolor, eaque molestiae amet voluptates quaerat, a doloribus esse, aliquam
+                        ut similique maiores? Enim dolorem iste quae cum quam officia laboriosam? Quod eum consequatur
+                        repudiandae maiores dolore.
                     </div>
                 </div>
             </div>
@@ -163,9 +179,21 @@
                         Site Features
                     </div>
                     <div class="conetent2-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium porro saepe tempora
-                        dignissimos ullam inventore laboriosam ea. Possimus odio ullam dicta, delectus aperiam impedit
-                        placeat quia ab sapiente eligendi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam est ducimus saepe odit
+                        repudiandae eveniet tenetur dolorem molestias sed nisi illo, doloremque, dignissimos
+                        perspiciatis ratione. Ex magni hic dolores!
+                        Modi accusantium in natus quae eaque omnis quas aliquid officia aspernatur aperiam et culpa
+                        vitae itaque, magni quo nesciunt corrupti ipsa perferendis facere accusamus, eum vel minus
+                        sapiente. Voluptates, tenetur.
+                        Iste, impedit quaerat. Inventore nulla numquam nesciunt. Illo laboriosam quasi, natus officiis
+                        voluptates fugiat aliquid, sint, ea perspiciatis cumque ab incidunt omnis! Voluptatem facere
+                        impedit ad cumque aperiam, quis provident!
+                        Voluptates hic quis dicta exercitationem doloribus? Reprehenderit praesentium officia, maiores
+                        quidem dolore alias at veritatis, eos ad, nihil molestiae. Autem quam, similique voluptatem
+                        dolorum error vel earum est dolor! Est.
+                        Fugit amet ab iste, natus odio quasi repellendus voluptatem. Sequi, temporibus iure. Quisquam
+                        magni repudiandae assumenda facere vitae odio nam rem accusamus aliquid cum placeat porro
+                        repellendus laborum, laboriosam delectus.
                     </div>
                 </div>
             </div>
