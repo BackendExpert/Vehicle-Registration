@@ -83,7 +83,7 @@
                                     </div>
                                     <div class="col-lg-2"></div>
                                     <div class="col-lg-2">
-                                        <i class="fas fa-shuttle-van" style="font-size: 60px;"></i>
+                                        <i class="fas fa-users" style="font-size: 60px;"></i>
                                     </div>
                                 </div>
                             </div>
