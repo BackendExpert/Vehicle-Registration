@@ -62,7 +62,7 @@
     .btn-login{
         margin-top: 20px;
         padding: 15px 35px;
-        border: 1px solid gold;
+        border: 2px solid gold;
     }
 </style>
 
