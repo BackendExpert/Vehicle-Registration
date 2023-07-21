@@ -17,15 +17,17 @@
         }
         .box{
             border: none;
-            border-radius: 2px;
+            border-radius: 5px;
             width: 100%;
-            padding: 20px 40px;            
+            padding: 20px 70px 20px 40px;     
+            margin: 50px 0;       
         }
         .green{
             background-color: green;
         }
         .content-title{
             font-size: 30px;
+            font-weight: 500;
         }
     </style>
 
@@ -61,57 +63,57 @@
             </div>
 
             <div class="content-1">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="box green">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <span class="content-title">Owners</span>
-                                </div>
-                                <div class="col-lg-2">
-                                    55
-                                </div>
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-2">
-                                    <i class="fas fa-shuttle-van"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="box green">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    Owner
-                                </div>
-                                <div class="col-lg-2">
-                                    55
-                                </div>
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-2">
-                                    <i class="fas fa-shuttle-van"></i>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="box green">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <span class="content-title">Owners</span>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <span style="font-size: 30px">55</span>
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-shuttle-van" style="font-size: 60px;"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="box green">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    Owner
-                                </div>
-                                <div class="col-lg-2">
-                                    55
-                                </div>
-                                <div class="col-lg-2"></div>
-                                <div class="col-lg-2">
-                                    <i class="fas fa-shuttle-van"></i>
+                        <div class="col-lg-4">
+                            <div class="box green">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <span class="content-title">Owners</span>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <span style="font-size: 30px">55</span>
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-shuttle-van" style="font-size: 60px;"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-4">
+                            <div class="box green">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <span class="content-title">Owners</span>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <span style="font-size: 30px">55</span>
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-shuttle-van" style="font-size: 60px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                        
                     </div>
-                    
-                    
                 </div>
             </div>
 
