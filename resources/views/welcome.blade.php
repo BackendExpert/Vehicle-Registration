@@ -105,7 +105,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="box green">
+                            <div class="box orange">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <span class="content-title">VIews</span>
