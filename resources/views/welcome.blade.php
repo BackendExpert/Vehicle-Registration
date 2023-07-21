@@ -67,7 +67,7 @@
                     <h1>Welcome to Vehicle Registration</h1> 
                 </div>                
             </div>
-            <div class="container">
+
                 <div class="section-1">
                     <div class="row">
                         <div class="col-lg-4">
@@ -121,7 +121,7 @@
                     </div>
 
                 </div>
-            </div>
+
 
         </div>
     </body>
