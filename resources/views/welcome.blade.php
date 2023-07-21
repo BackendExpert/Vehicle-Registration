@@ -37,7 +37,7 @@
             @endif             --}}
 
             <div class="home-content">
-                hi 
+                <h1>Welcome to Vehicle Registration</h1> 
             </div>
 
         </div>
