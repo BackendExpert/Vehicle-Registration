@@ -52,7 +52,9 @@
                             <div class="col-lg-6">
                                 Vehicle Owners
                             </div>
-                            <div class="col-lg-6"></div>
+                            <div class="col-lg-6">
+                                <i class="fas fa-shuttle-van"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
