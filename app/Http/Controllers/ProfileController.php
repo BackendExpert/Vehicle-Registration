@@ -61,7 +61,7 @@ class ProfileController extends Controller
         ]);
 
         $update_member = Member::find($id);
-        
+        $update_member->name = $request->name;
     }
 
     /**
