@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 <style>
-    .login-content{
+    /* .login-content{
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
         margin-top: -20px;
         padding: 200px 0;
@@ -55,11 +55,11 @@
         cursor: pointer;
         background: rgb(47, 44, 224);
         color: white;
-    }
+    } */
 </style>
 
 @section('content')
-    <div class="login-content">
+    {{-- <div class="login-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3"></div>
@@ -117,8 +117,8 @@
                 <div class="col-lg-3"></div>
             </div>    
         </div>
-    </div>
-{{-- 
+    </div> --}}
+
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -185,6 +185,6 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 
 @endsection
