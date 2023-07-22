@@ -129,9 +129,9 @@
 
 @php
     if(Auth::user()->name == $view_vehicle->owner){
-
+        Hiiiiii
     }
     elseif (Auth::user()->name != $view_vehicle->owner) {
-        
+        Helooo
     }
 @endphp
