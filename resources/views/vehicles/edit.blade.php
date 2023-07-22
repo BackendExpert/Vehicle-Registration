@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="plateNo">Vehicle Plate Number : </label>
-                    <input type="text" name="vehicle_plate_no" id="vehicle_plate_no" class="form-control" value="{{ $edit_vehicle->vehicle_plate_no }}">
+                    <input type="text" name="vehicle_plate_no" id="vehicle_plate_no" class="form-control" value="{{ $edit_vehicle->vehicle_plate_no }}" disabled>
                 </div>
             </div>
 
