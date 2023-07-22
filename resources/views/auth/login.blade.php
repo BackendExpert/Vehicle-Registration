@@ -5,7 +5,7 @@
         text-align: center;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
         margin-top: -20px;
-        padding: 20px 0;
+        padding: 200px 0;
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -19,14 +19,14 @@
 </style>
 
 @section('content')
-    <div class="login-content">
-        <div class="container">
-            <span class="main-title">{{__('Login Here')}}</span>
-            <form action="{{ route('login') }}" method="POST">
-            
-            </form>
-        </div>
+<div class="login-content">
+    <div class="container">
+        <span class="main-title">{{__('Login Here')}}</span>
+        <form action="{{ route('login') }}" method="POST">
+        
+        </form>
     </div>
+</div>
 
     <div class="row justify-content-center">
         <div class="col-md-8">
