@@ -17,5 +17,9 @@
         <b>Vehicle Model</b> : {{ $view_vehicle->vehicle_model }} <br>
         <b>Vehicle Color</b> : {{ $view_vehicle->vehicle_color }} <br>
         <b>Seats</b> : {{ $view_vehicle->seats }}
+
+
+        
+
     </div>
 @endsection
