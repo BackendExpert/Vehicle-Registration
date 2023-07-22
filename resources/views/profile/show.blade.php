@@ -1,4 +1,4 @@
-{{-- <h1>
+<h1>
 
     {{ $member_profile->id }} <br>
 
@@ -10,9 +10,9 @@
     <script>window.location = "/users";</script>
     @endif
     
-</h1> --}}
+</h1>
 
-@extends('layouts.dash')
+{{-- @extends('layouts.dash')
 
 @if (Auth::user()->id != $member_profile->id)
 <script>window.location = "/users";</script>
@@ -59,4 +59,4 @@
             </div>
         </div>
     </div>
-@endsection
+@endsection --}}
