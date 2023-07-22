@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+<style>
+    .login-content{
+        text-align: center;
+    }
+</style>
+
 @section('content')
 <div class="container">
 
