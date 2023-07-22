@@ -41,6 +41,12 @@
                         <td colspan="2"><b>Vehicle Registed Number</b></td>
                         <td colspan="2">{{ $view_vehicle->vehicle_registed_no }}</td>
                     </tr>
+                    <tr>
+                        <td><b>Vehicle Type</b></td>
+                        <td>{{ $view_vehicle->vehicle_type }}</td>
+                        <td><b>Vehicle Chassis Number</b></td>
+                        <td>{{ $view_vehicle->vehicle_chassis_no }}</td>
+                    </tr>
                 </table>
             </div>            
         </div>
