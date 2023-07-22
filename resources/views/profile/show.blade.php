@@ -33,5 +33,12 @@
                 <input type="text" class="form-control" value="{{ $member_profile->email }}" disabled>
             </div>
         </div>
+        <br><br>
+        <div class="row">
+            <div class="col-lg-12">
+                <label for="address">Address</label>
+                <textarea cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
+            </div>
+        </div>
     </div>
 @endsection
