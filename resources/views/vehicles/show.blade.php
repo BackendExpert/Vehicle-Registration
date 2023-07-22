@@ -69,7 +69,7 @@
                 <br>
 
                 <div class="row">
-                    <div class="col-lg-6" style="text-align: left;">
+                    <div class="col-lg-6" style="text-align: center;">
                         @php
                             $mytime = Carbon\Carbon::now();
                             echo $mytime->toDateTimeString();
