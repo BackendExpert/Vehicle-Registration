@@ -25,7 +25,7 @@
             @csrf
             <div class="row">
                 <div class="col-lg-6">
-                    <label for="chassisNo">Vehicle Chassis Number : </label>
+                    <label for="owner">Vehicle Owner : </label>
                     <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control">
                 </div>
                 <div class="col-lg-6">
