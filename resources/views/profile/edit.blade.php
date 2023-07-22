@@ -10,6 +10,7 @@
         <hr>
 
         <a href="{{ url('/profile/'.$member_profile->id) }}"><button class="btn btn-primary">Back</button></a>
+        <br><br>
 
         @if ($errors->any())
             <ul>
