@@ -87,7 +87,7 @@ class VehicleController extends Controller
             'seats' => ['required'],
         ]);
 
-        $new_vechicle = new VehiclesM();
+        $new_vechicle = VehiclesM::find($id);
         $new_vechicle->vehicle_plate_no = $request->vehicle_plate_no;
         $new_vechicle->vehicle_chassis_no = $request->vehicle_chassis_no;
         $new_vechicle->vehicle_type = $request->vehicle_type;
