@@ -1,6 +1,6 @@
 @auth
     
-
+@extends('layouts.dash')
 
 @else
 
