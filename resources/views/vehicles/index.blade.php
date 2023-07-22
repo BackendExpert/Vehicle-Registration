@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="admin-card">
-        Registed Vehicles
+        <h3>Registed Vehicles</h3>
     </div>
 @endsection
