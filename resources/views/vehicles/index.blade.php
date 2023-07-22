@@ -28,7 +28,7 @@
                         <td>{{ $vehicle->owner }}</td>
                         <td>{{ $vehicle->vehicle_model }}</td>
                         <td>{{ $vehicle->vehicle_type }}</td>
-                        <td>{{}}</td>
+                        <td>{{ $vehicle->created_at }}</td>
                     </tr>
                 @endforeach
             </tbody>
