@@ -12,9 +12,12 @@
             <div class="row">
                 <div class="col-lg-4">
                     <label for="plateNo">Vehicle Plate Number : </label>
-                    <input type="text" name="" id="" class="form-control">
+                    <input type="text" name="vehicle_plate_no" id="vehicle_plate_no" class="form-control">
                 </div>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <label for="plateNo">Vehicle Plate Number : </label>
+                    <input type="text" name="vehicle_plate_no" id="vehicle_plate_no" class="form-control">
+                </div>
                 <div class="col-lg-4"></div>
             </div>
 
