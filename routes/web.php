@@ -39,3 +39,5 @@ Route::get('client', function(){
 })->name('client')->middleware('client');
 
 Route::resource("/users", UserController::class);
+
+Route::resource("/profile", )
