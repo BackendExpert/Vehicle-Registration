@@ -69,7 +69,12 @@
 
                 <div class="row">
                     <div class="col-lg-6">
-                        <span style="text-align: center; padding-bottom: -20px;">2023</span><br>
+                        <span style="text-align: center; padding-bottom: -20px;">
+                            @php
+                                $mytime = Carbon\Carbon::now();
+                                echo $mytime->toDateTimeString();
+                            @endphp 
+                        </span><br>
                         <span>_________________________________</span>
                         <p><b>Generated Time</b></p>
                     </div>
