@@ -114,7 +114,7 @@
             <b>Vehicle Plate Number </b> : {{ $view_vehicle->vehicle_plate_no }} <br>
             <b>Vehicle Chassis Number </b> : ********* <br>
             <b>Vehicle Registered Number </b> : ********* <br>
-            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Type </b> : {{ $view_vehicle->vehicle_type }} <br>
             <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
             <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
 
