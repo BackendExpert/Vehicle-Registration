@@ -109,7 +109,11 @@
                     <br>
                     <i class="fas fa-copyright"></i> All Rights Reserved - Online Vehicle Registration Platform - 2023
                     <br><br>
+                    @if (Auth::user()->name == $view_vehicle->owner)
                     <button class="btn btn-primary" onclick="window.print();">Print</button>
+                    @else
+                        
+                    @endif
                 </div>            
             </div>
         </div>
