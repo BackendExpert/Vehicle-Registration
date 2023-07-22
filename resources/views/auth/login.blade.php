@@ -30,6 +30,9 @@
         border-radius: 2px;
         border: 1px solid rgb(214, 214, 214);
     }
+    .form-input:active{
+        border: 1px solid blue;
+    }
 </style>
 
 @section('content')
