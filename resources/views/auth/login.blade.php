@@ -33,6 +33,10 @@
     .form-input:focus{
         border: 1px solid blue;
     }
+    .login-btn{
+        width: 100%;
+        height: 45px;
+    }
 </style>
 
 @section('content')
@@ -76,7 +80,7 @@
 
                             <br>
 
-                            <button type="submit" class="btn btn-primary">
+                            <button type="submit" class="login-btn">
                                 {{ __('Login') }}
                             </button>
                             <br>
