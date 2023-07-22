@@ -25,6 +25,12 @@
                         @endphp 
                     </div>
                 </div>
+                <table class="table">
+                    <tr>
+                        <td>Vehicle Owner</td>
+                        <td>{{ $view_vehicle->owner }}</td>
+                    </tr>
+                </table>
             </div>            
         </div>
         <div class="col-lg-2"></div>
