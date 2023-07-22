@@ -13,9 +13,15 @@
             @method("PATCH")
 
             <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-6">
+                    <label for="owner">Vehicle Owner : </label>
+                    <input type="text" class="form-control" value="@php echo Auth::user()->name; @endphp" disabled><br>
+                    <input type="hidden" name="owner" value="@php echo Auth::user()->name; @endphp">
+                </div>
+                <div class="col-lg-6">
+                    <label for="plateNo">Vehicle Plate Number : </label>
+                    <input type="text" name="vehicle_plate_no" id="vehicle_plate_no" class="form-control" value="{{ $edit_vehicle->vehicle_plate_no }}">
+                </div>
             </div>
 
         </form>
