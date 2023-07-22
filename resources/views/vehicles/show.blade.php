@@ -95,7 +95,10 @@
                         <b>Vehicle Owner</b>
                     </div>
                 </div>
-
+                <br>
+                <br>
+                <br>
+                <i class="fas fa-copyright"></i>
             </div>            
         </div>
         <div class="col-lg-2"></div>
