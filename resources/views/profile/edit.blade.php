@@ -11,7 +11,8 @@
 
         <form action="{{ url('profile/' .$member_profile->id) }}" method="POST">
         
-            
+            @csrf
+            @method("PATCH")
         
         </form>
     </div>
