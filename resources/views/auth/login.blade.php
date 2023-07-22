@@ -57,8 +57,6 @@
 
                             <label for="password" class="label-text">{{__('Password')}}</label><br>
                             <input type="password" id="password" class="form-input @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
                         </form>
                     </div>
                 </div>
