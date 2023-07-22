@@ -12,8 +12,8 @@ class VehicleController extends Controller
      */
     public function index()
     {
-        $vehicle = VehiclesM::all();
-        return view('vehicles.index')->with('vehicle', $vehicle);
+        $vehicles = VehiclesM::all();
+        return view('vehicles.index')->with('vehicles', $vehicles);
     }
 
     /**
