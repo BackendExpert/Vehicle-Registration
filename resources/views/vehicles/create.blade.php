@@ -24,6 +24,13 @@
                 </div>
             </div>
             <br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="vehiType">Vehicle Type : </label>
+                    <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
 
         </form>
     </div>
