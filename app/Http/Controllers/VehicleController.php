@@ -79,8 +79,8 @@ class VehicleController extends Controller
     public function update(Request $request, string $id)
     {
         $this->validate($request, [
-            'vehicle_plate_no' => ['required', 'min:10', 'max:11', 'unique:vehicles'],
-            'vehicle_chassis_no' => ['required', 'min:12', 'max:15', 'unique:vehicles'],
+            'vehicle_plate_no' => ['required', 'min:10', 'max:11'],
+            'vehicle_chassis_no' => ['required', 'min:12', 'max:15'],
             'vehicle_type' => ['required', 'min:2', 'max:10'],
             'vehicle_model' => ['required', 'min:1', 'max:30'],
             'vehicle_color' => ['required', 'min:2', 'max:10'],
