@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\VehiclesM;
 use Illuminate\Http\Request;
 
 class VehicleController extends Controller
@@ -11,7 +12,8 @@ class VehicleController extends Controller
      */
     public function index()
     {
-        
+        $vehicle = VehiclesM::all();
+        return();
     }
 
     /**
