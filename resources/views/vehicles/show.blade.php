@@ -126,18 +126,3 @@
 
 @endif --}}
 
-
-@php
-    if(Auth::user()->name == $view_vehicle->owner){
-@endphp
-
-
-@php
-    }
-    elseif (Auth::user()->name != $view_vehicle->owner) {
-@endphp
-
-
-@php
-    }
-@endphp
