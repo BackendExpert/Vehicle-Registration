@@ -92,7 +92,7 @@
                         Generated Time
                     </div>
                     <div class="col-lg-6" style="text-align: center;">
-                        Vehicle Owner
+                        <b>Vehicle Owner</b>
                     </div>
                 </div>
 
