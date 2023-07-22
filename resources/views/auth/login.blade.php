@@ -24,20 +24,27 @@
 </style>
 
 @section('content')
-    <div class="login-content">
-        <div class="container">
-            <div class="login-here">
-                <span class="main-title">{{__('Login Here')}}</span>
-                <form action="{{ route('login') }}" method="POST">
-                @csrf
-        
-                    <label for="email">{{__('Email Address')}}</label>
-        
-                </form>
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <div class="login-content">
+                <div class="container">
+                    <div class="login-here">
+                        <span class="main-title">{{__('Login Here')}}</span>
+                        <form action="{{ route('login') }}" method="POST">
+                        @csrf
+                
+                            <label for="email">{{__('Email Address')}}</label>
+                
+                        </form>
+                    </div>
+            
+                </div>
             </div>
-    
         </div>
+        <div class="col-lg-4"></div>
     </div>
+
 
     <div class="row justify-content-center">
         <div class="col-md-8">
