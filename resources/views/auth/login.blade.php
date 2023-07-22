@@ -65,9 +65,6 @@
                     <div class="login-here">
                         <span class="main-title"><i class="fas fa-user"></i> {{__('Login Here')}}</span>
                         <hr>
-                        @if ()
-                            
-                        @endif
                         <form action="{{ route('login') }}" method="POST">
                         @csrf
                             <label for="email" class="label-text">{{__('Email Address')}}</label><br>
