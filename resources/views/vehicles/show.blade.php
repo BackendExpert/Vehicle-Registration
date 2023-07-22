@@ -14,6 +14,15 @@
             <div class="print-title">
                 <h1>Online Vehicle Registration Application</h1>
                 <hr>
+                <div class="row">
+                    <div class="col-lg-6">
+                        @php
+                            $mytime = Carbon\Carbon::now();
+                            echo $mytime->toDateTimeString();
+                        @endphp 
+                    </div>
+                    <div class="col-lg-6"></div>
+                </div>
             </div>            
         </div>
         <div class="col-lg-2"></div>
