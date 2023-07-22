@@ -96,6 +96,14 @@
         </div>
     </div>
 </div>
+
+
 @else
     
+    @extends('layouts.dash')
+
+    @section('content')
+        
+    @endsection
+
 @endif
