@@ -63,6 +63,15 @@
 
                 * This is computer generated Document
                 
+                <div class="row">
+                    <div class="col-lg-6">
+                        ________________________________
+                    </div>
+                    <div class="col-lg-6">
+                        ________________________________
+                    </div>
+                </div>
+
             </div>            
         </div>
         <div class="col-lg-2"></div>
