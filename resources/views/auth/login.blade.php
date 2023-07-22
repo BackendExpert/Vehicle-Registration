@@ -16,6 +16,10 @@
         color: white;
         font-weight: 500;
     }
+    .login-here{
+        width: 100%;
+        padding: 50px 40px;
+    }
 </style>
 
 @section('content')
@@ -25,7 +29,10 @@
         <form action="{{ route('login') }}" method="POST">
         @csrf
 
-        
+            <div class="login-here">
+
+            </div>
+
         </form>
     </div>
 </div>
