@@ -35,10 +35,11 @@
     }
     input[type=email]:focus{
         border: 2px solid #6a74ff;
-        box-shadow: 2px 2px 3px 2px #6a74ff;
+        box-shadow: 2px 2px 4px 2px #6a74ff;
     }
     input[type=password]:focus{
         border: 2px solid #6a74ff;
+        box-shadow: 2px 2px 4px 2px #6a74ff;
     }
 
 
