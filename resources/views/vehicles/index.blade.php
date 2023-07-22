@@ -14,7 +14,8 @@
                     <th>#</th>
                     <th>Vehicle Plate Number</th>
                     <th>Owner</th>
-                    <th></th>
+                    <th>Vehicle Model</th>
+                    <th>Vehicle Type</th>
                 </tr>
             </thead>
         </table>
