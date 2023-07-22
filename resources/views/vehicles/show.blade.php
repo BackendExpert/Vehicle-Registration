@@ -68,6 +68,15 @@
                 <br>
 
                 <div class="row">
+                    <div class="col-lg-6">
+                        <p style="text-align: center;">2023</p>
+                        <p>_________________________________</p>
+                        <p>Generated Time</p>
+                    </div>
+                    <div class="col-lg-6"></div>
+                </div>
+
+                {{-- <div class="row">
                     <div class="col-lg-6" style="text-align: center;">
                         @php
                             $mytime = Carbon\Carbon::now();
@@ -93,7 +102,7 @@
                     <div class="col-lg-6" style="text-align: center;">
                         <b>Vehicle Owner</b>
                     </div>
-                </div>
+                </div> --}}
                 <br>
                 <br>
                 <br>
