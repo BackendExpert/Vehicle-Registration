@@ -9,7 +9,7 @@
         <hr>
         <br>
 
-        Owner : {{ $view_vehicle->owner }} <br>
-        Vehicale Plate Number : {{ $view_vehicle->vehicle_plate_no }} <br>
+        <b>Owner</b> : {{ $view_vehicle->owner }} <br>
+        <b>Vehicale Plate Number</b> : {{ $view_vehicle->vehicle_plate_no }} <br>
     </div>
 @endsection
