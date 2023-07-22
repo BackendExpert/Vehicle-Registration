@@ -23,6 +23,8 @@
     <div class="container">
         <span class="main-title">{{__('Login Here')}}</span>
         <form action="{{ route('login') }}" method="POST">
+        @csrf
+
         
         </form>
     </div>
