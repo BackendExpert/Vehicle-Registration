@@ -60,7 +60,7 @@
             <br><br>
             <div class="row">
                 <div class="col-lg-12">
-                    
+                    <input type="submit" value="Update Vehicle Information" class="btn btn-success" style="width: 100%;">
                 </div>
             </div>
 
