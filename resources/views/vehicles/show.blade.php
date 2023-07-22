@@ -75,15 +75,15 @@
                             echo $mytime->toDateTimeString();
                         @endphp 
                     </div>
-                    <div class="col-lg-6" style="text-align: right;">
-                        _____________________________________________
+                    <div class="col-lg-6" style="text-align: center;">
+                        {{ $view_vehicle->owner }}
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6" style="text-align: left;">
+                    <div class="col-lg-6" style="text-align: center;">
                         _____________________________________________
                     </div>
-                    <div class="col-lg-6" style="text-align: right;">
+                    <div class="col-lg-6" style="text-align: center;">
                         _____________________________________________
                     </div>
                 </div>
