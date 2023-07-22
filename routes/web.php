@@ -44,3 +44,5 @@ Route::resource("/users", UserController::class);
 // Route::get('/profile', [UserController::class, 'profile']);
 
 Route::resource("/profile", ProfileController::class);
+
+Route::resource("/vehicles")
