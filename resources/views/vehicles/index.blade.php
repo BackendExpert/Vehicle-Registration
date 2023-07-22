@@ -16,6 +16,8 @@
                     <th>Owner</th>
                     <th>Vehicle Model</th>
                     <th>Vehicle Type</th>
+                    <th>Added Date</th>
+                    <th>Action</th>
                 </tr>
             </thead>
         </table>
