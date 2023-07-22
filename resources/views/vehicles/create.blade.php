@@ -40,7 +40,7 @@
                 <div class="col-lg-6">
                     <label for="regNo">Vehicle Registered Number : </label>
                     <input type="text" name="vehicle_registed_no" id="vehicle_registed_no" class="form-control">
-                    (Must be between 10 and 11 characters)
+                    (Must be between 12 and 15 characters)
                 </div>
                 <div class="col-lg-6">
                     <label for="chassisNo">Vehicle Chassis Number : </label>
