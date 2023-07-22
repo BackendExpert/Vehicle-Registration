@@ -9,6 +9,6 @@ class Member extends Model
 {
     protected $table = 'users';
     protected $primaryKey = 'id';
-    protected $fillable = ['name', 'email', 'role'];
+    protected $fillable = ['name', 'email', 'role', 'address', ''];
     use HasFactory;
 }
