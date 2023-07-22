@@ -9,7 +9,7 @@
         <h3><i class="fas fa-user-edit"></i> Update {{ $member_profile->name }}'s Profile</h3>
         <hr>
 
-        <a href="{{ url('/profile/'.$member_profile->id) }}"></a>
+        <a href="{{ url('/profile/'.$member_profile->id) }}"><button class="btn btn-primary">Back</button></a>
 
         @if ($errors->any())
             <ul>
