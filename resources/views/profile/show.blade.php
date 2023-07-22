@@ -20,6 +20,6 @@
 
 @section('content')
     <div class="admin-card">
-        <h1>Update Profile</h1>
+        <h3>Update Profile</h3>
     </div>
 @endsection
