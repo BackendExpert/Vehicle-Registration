@@ -44,6 +44,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <label for="join">Join Date : </label>
+                <input type="text" class="form-control" value="{{ $member_profile-> }}">
             </div>
             <div class="col-lg-6"></div>
         </div>
