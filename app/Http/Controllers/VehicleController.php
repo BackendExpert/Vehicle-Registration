@@ -69,8 +69,8 @@ class VehicleController extends Controller
      */
     public function edit(string $id)
     {
-        $view_vehicle = VehiclesM::find($id);
-        return view('vehicles.show')->with('view_vehicle', $view_vehicle);
+        $edit_vehicle = VehiclesM::find($id);
+        return view('vehicles.edit')->with('edit_vehicle', $edit_vehicle);
     }
 
     /**
