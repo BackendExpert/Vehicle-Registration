@@ -24,6 +24,10 @@
     .label-text{
         font-size: 20px;
     }
+    .form-input{
+        width: 100%;
+        height: 40px;
+    }
 </style>
 
 @section('content')
