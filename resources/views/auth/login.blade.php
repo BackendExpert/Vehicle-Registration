@@ -11,13 +11,13 @@
 </style>
 
 @section('content')
-<div class="container">
-
     <div class="login-content">
-        <span class="main-title">{{__('Login Here')}}</span>
-        <form action="{{ route('login') }}" method="POST">
-        
-        </form>
+        <div class="container">
+            <span class="main-title">{{__('Login Here')}}</span>
+            <form action="{{ route('login') }}" method="POST">
+            
+            </form>
+        </div>
     </div>
 
     <div class="row justify-content-center">
@@ -87,5 +87,5 @@
             </div>
         </div>
     </div>
-</div>
+
 @endsection
