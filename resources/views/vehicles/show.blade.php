@@ -71,12 +71,12 @@
                     <div class="col-lg-6">
                         <span style="text-align: center; padding-bottom: -20px;">2023</span><br>
                         <span>_________________________________</span>
-                        <p>Generated Time</p>
+                        <p><b>Generated Time</b></p>
                     </div>
                     <div class="col-lg-6">
                         <span style="text-align: center; padding-bottom: -20px;">2023</span><br>
                         <span>_________________________________</span>
-                        <p>Generated Time</p>
+                        <p><b>Vehicle Owner</b></p>
                     </div>
                 </div>
 
