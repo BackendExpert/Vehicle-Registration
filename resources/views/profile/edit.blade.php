@@ -19,7 +19,9 @@
                     <label for="name">Name : </label>
                     <input type="text" name="name" id="name" class="form-control" value="{{ $member_profile->name }}">
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <label for="email">Email : </label>
+                </div>
             </div>
         
         </form>
