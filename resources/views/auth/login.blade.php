@@ -53,6 +53,9 @@
                                     <strong>{{ $message }}</strong>
                                 </span>
                             @enderror
+
+
+                            <label for="password" class="label-text">{{__('Password')}}</label><br>
                         </form>
                     </div>
                 </div>
