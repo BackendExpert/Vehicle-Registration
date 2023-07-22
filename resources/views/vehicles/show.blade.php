@@ -21,7 +21,7 @@
         <br><br>
 
         @if (Auth::user()->name == $view_vehicle->owner)
-            <a href=""><button class="btn btn-primary">Print</button></a>
+            <a href="{{ url('/vehicles/print/' . $vehicle->id) }}"><button class="btn btn-primary">Print</button></a>
         @endif
 
     </div>
