@@ -40,5 +40,12 @@
                 <textarea cols="30" rows="10" class="form-control" style="resize: none;" disabled>{{ $member_profile->address }}</textarea>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="join">Join Date : </label>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
     </div>
 @endsection
