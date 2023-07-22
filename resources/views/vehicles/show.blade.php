@@ -15,6 +15,6 @@
         <b>Vehicle Registered Number</b> : {{ $view_vehicle->vehicle_registed_no }} <br>
         <b>Vehicle Type</b> : {{ $view_vehicle->vehicle_type }} <br>
         <b>Vehicle Model</b> : {{ $view_vehicle->vehicle_model }} <br>
-        <b>Vehicle Registered Number</b> : {{ $view_vehicle->vehicle_registed_no }} <br>
+        <b>Vehicle Color</b> : {{ $view_vehicle->vehicle_color }} <br>
     </div>
 @endsection
