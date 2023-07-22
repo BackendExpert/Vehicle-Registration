@@ -21,6 +21,7 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" class="form-control" value="{{ $member_profile->email }}">
                 </div>
             </div>
         
