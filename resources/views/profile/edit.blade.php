@@ -9,6 +9,8 @@
         <h3><i class="fas fa-user-edit"></i> Update {{ $member_profile->name }}'s Profile</h3>
         <hr>
 
+        <a href="{{ url('/profile/'.$member_profile->id) }}"></a>
+
         @if ($errors->any())
             <ul>
                 @foreach ($errors->all() as $error)
