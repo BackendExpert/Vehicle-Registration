@@ -27,6 +27,8 @@
     .form-input{
         width: 100%;
         height: 40px;
+        border-radius: 2px;
+        border: 1px solid rgb(214, 214, 214);
     }
 </style>
 
