@@ -51,7 +51,8 @@ class UserController extends Controller
     }
 
     public function profile(string $id){
-        
+        $members = Member::find($id);
+        return view('users.profile')->with('members', $members);
     }
 
     /**
