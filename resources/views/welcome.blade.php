@@ -117,6 +117,7 @@
             @auth
                 <h1>Welcome Back</h1>
                 <a href="{{ url('admin') }}"><button class="btn-login">Dashboard</button></a>
+                <a href=""><button class="add-vehi">Register New Vehicle</button></a>
             @else
                 <h1>Welcome to Vehicle Registration</h1>
                 <a href="{{ route('login') }}"><button class="btn-login">Loging Here</button></a>
