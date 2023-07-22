@@ -8,7 +8,7 @@
         <hr>
         <br><br>
 
-        <form action="{{  }}" method="POST"></form>
+        <form action="{{ url('vehicles/' .$edit_vehicle->id) }}" method="POST"></form>
         
     </div>
 @endsection
