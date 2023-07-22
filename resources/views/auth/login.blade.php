@@ -2,7 +2,6 @@
 
 <style>
     .login-content{
-        text-align: center;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
         margin-top: -20px;
         padding: 200px 0;
@@ -22,6 +21,9 @@
         background: white;
         border-radius: 5px;
     }
+    .label-text{
+        font-size: 20px;
+    }
 </style>
 
 @section('content')
@@ -32,10 +34,11 @@
                 <div class="col-lg-6">
                     <div class="login-here">
                         <span class="main-title">{{__('Login Here')}}</span>
+                        <hr>
                         <form action="{{ route('login') }}" method="POST">
                         @csrf
                 
-                            <label for="email">{{__('Email Address')}}</label>
+                            <label for="email" class="label-text">{{__('Email Address')}}</label>
                 
                         </form>
                     </div>
