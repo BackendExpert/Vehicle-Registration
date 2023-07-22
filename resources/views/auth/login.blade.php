@@ -4,7 +4,7 @@
     .login-content{
 
     }
-    .login-content .main-title{
+    .main-title{
         text-align: center;
     }
 </style>
