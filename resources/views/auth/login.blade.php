@@ -2,10 +2,10 @@
 
 <style>
     .login-content{
-
+        text-align: center;
     }
     .main-title{
-        text-align: center;
+        font-size: 40px;
     }
 </style>
 
