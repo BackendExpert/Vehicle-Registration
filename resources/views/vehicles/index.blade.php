@@ -25,7 +25,7 @@
                     <tr>
                         <td><b>{{ $loop->iteration }}</b></td>
                         <td>{{ $vehicle->vehicle_plate_no }}</td>
-                        <td></td>
+                        <td>{{ $vehicle->onwer }}</td>
                     </tr>
                 @endforeach
             </tbody>
