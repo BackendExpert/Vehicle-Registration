@@ -56,7 +56,7 @@ class ProfileController extends Controller
     {
         $this->validate($request, [
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'email' => ['required', 'string', 'email', 'max:255'],
             'address' => ['required', 'string', 'min:5', 'max:300'],
         ]);
 
@@ -67,7 +67,7 @@ class ProfileController extends Controller
         
         $update_member->update();
 
-        return redirect()->back();
+        return redirect('/users');
     }
 
     /**
