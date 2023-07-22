@@ -20,7 +20,7 @@
 
 @section('content')
     <div class="admin-card">
-        <h3>Update Profile</h3>
+        <h3><i class="fas fa-user-edit"></i> Update Profile</h3>
         <hr>
     </div>
 @endsection
