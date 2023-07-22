@@ -23,6 +23,7 @@
                     <input type="text" name="vehicle_registed_no" id="vehicle_registed_no" class="form-control">
                 </div>
             </div>
+            <br><br>
 
         </form>
     </div>
