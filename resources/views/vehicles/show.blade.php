@@ -21,7 +21,12 @@
                             echo $mytime->toDateTimeString();
                         @endphp 
                     </div>
-                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        @php
+                        $mytime = Carbon\Carbon::now();
+                        echo $mytime->toDateTimeString();
+                    @endphp 
+                    </div>
                 </div>
             </div>            
         </div>
