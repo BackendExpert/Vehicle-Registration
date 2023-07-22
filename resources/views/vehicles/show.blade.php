@@ -32,7 +32,13 @@
                         </tr>
                         <tr>
                             <td><b>Vehicle Plate Number</b></td>
-                            <td>{{ $view_vehicle->vehicle_plate_no }}</td>
+                            <td>
+                                @if (Auth::user()->name == $view_vehicle->owner)
+                                    {{ $view_vehicle->vehicle_plate_no }}
+                                @else
+                                    ******************
+                                @endif
+                            </td>
                             <td><b>Vehicle Chassis Number</b></td>
                             <td>{{ $view_vehicle->vehicle_chassis_no }}</td>
                         </tr>
