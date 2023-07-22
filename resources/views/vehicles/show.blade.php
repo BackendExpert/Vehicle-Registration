@@ -1,4 +1,4 @@
-@if (Auth::user()->name == $view_vehicle->owner)
+{{-- @if (Auth::user()->name == $view_vehicle->owner)
     @extends('layouts.header')
 
     <style>
@@ -124,4 +124,14 @@
         </div>
     @endsection
 
-@endif
+@endif --}}
+
+
+@php
+    if(Auth::user()->name == $view_vehicle->owner){
+
+    }
+    elseif (Auth::user()->name != $view_vehicle->owner) {
+        
+    }
+@endphp
