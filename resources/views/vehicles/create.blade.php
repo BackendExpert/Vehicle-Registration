@@ -9,8 +9,15 @@
 
         <form action="{{ url('/vehicles') }}" method="POST">
             @csrf
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="plateNo">Vehicle Plate Number : </label>
+                    <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4"></div>
+            </div>
 
-            
         </form>
     </div>
 @endsection
