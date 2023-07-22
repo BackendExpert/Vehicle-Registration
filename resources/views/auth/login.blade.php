@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@extends('layouts.header')
+
 <style>
     .login-content{
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
