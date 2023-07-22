@@ -17,7 +17,7 @@
         font-weight: 500;
     }
     .login-here{
-        width: 40%;
+        width: 100%;
         padding: 50px 40px;
         background: white;
     }
@@ -27,8 +27,8 @@
     <div class="login-content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
                     <div class="login-here">
                         <span class="main-title">{{__('Login Here')}}</span>
                         <form action="{{ route('login') }}" method="POST">
@@ -39,7 +39,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-3"></div>
             </div>    
         </div>
     </div>
