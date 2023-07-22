@@ -20,7 +20,7 @@
 
 @section('content')
     <div class="admin-card">
-        <h3><i class="fas fa-user-edit"></i> {{ $member_profile->name }}'s Profile</h3>
+        <h3><i class="fas fa-user"></i> {{ $member_profile->name }}'s Profile</h3>
         <hr>
 
         <div class="row">
@@ -49,6 +49,11 @@
             <div class="col-lg-6">
                 <label for="join">Last Update At : </label>
                 <input type="text" class="form-control" value="{{ $member_profile->updated_at }}" disabled>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <a href=""><button class="btn btn-primary"></button></a>
             </div>
         </div>
     </div>
