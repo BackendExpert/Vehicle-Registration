@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="owner">Vehicle Owner : </label>
-                    <input type="text" name="owner" id="owner" class="form-control" value="{{ @php Auth::username; @endphp }}">
+                    <input type="text" name="owner" id="owner" class="form-control" value="{{ @php Auth::user()->name; @endphp }}">
                 </div>
                 <div class="col-lg-6">
                     <label for="plateNo">Vehicle Plate Number : </label>
