@@ -5,7 +5,7 @@
         text-align: center;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
         margin-top: -30px;
-        padding-top: 20px;
+        padding: 20px 0;
     }
     .main-title{
         font-size: 40px;
