@@ -16,7 +16,9 @@ return new class extends Migration
             $table->integer('vehicle_plate_no');
             $table->integer('vehicle_chassis_no');
             $table->integer('vehicle_registed_no');
-            $table->
+            $table->integer('owner');
+            $table->string('vehicle_type');
+            $table->string('vehicle_model')
             $table->timestamps();
         });
     }
