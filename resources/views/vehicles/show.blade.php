@@ -8,5 +8,8 @@
         <h2>Vehicale Number {{ $view_vehicle->vehicle_plate_no }} Information</h2>
         <hr>
         <br>
+
+        Owner : {{ $view_vehicle->owner }} <br>
+        Vehicale Plate Number : {{ $view_vehicle->vehicle_plate_no }} <br>
     </div>
 @endsection
