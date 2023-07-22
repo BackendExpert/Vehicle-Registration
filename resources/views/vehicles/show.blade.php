@@ -38,8 +38,8 @@
                         <td>{{ $view_vehicle->vehicle_chassis_no }}</td>
                     </tr>
                     <tr>
-                        <td>Vehicle Registed Number</td>
-                        <td>{{ $view_vehicle->vehicle_registed_no }}</td>
+                        <td colspan="2">Vehicle Registed Number</td>
+                        <td colspan="2">{{ $view_vehicle->vehicle_registed_no }}</td>
                     </tr>
                 </table>
             </div>            
