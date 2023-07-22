@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="chassisNo">Vehicle Chassis Number : </label>
-                    <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control" value="{{ $edit_vehicle->vehicle_chassis_no }}" disabled>
+                    <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control" value="{{ $edit_vehicle->vehicle_chassis_no }}" >
                 </div>
             </div>            
             <br><br>
