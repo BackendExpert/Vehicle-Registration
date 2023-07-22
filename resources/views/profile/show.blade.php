@@ -28,7 +28,10 @@
                 <label for="Name">Name : </label>
                 <input type="text" class="form-control" value="{{ $member_profile->name }}" disabled>
             </div>
-            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <label for="email">Email : </label>
+                <input type="text" class="form-control" value="{{ $member_profile->email }}" disabled>
+            </div>
         </div>
     </div>
 @endsection
