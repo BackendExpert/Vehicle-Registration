@@ -55,7 +55,7 @@
         <br><br>
         <div class="row">
             <div class="col-lg-12">
-                <a href=""><button class="btn btn-primary" style="width: 100%;"><i class="fas fa-user-edit"></i> Update {{ $member_profile->name }}'s Profile</button></a>
+                <a href="{{ url('/profile/' . $member_profile->id . '/edit') }}"><button class="btn btn-primary" style="width: 100%;"><i class="fas fa-user-edit"></i> Update {{ $member_profile->name }}'s Profile</button></a>
             </div>
         </div>
     </div>
