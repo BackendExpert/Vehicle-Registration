@@ -49,7 +49,7 @@
             <br><br>
             <div class="row">
                 <div class="col-lg-12">
-                    <input type="submit" value="Register Vehicle" class="btn btn-success">
+                    <input type="submit" value="Register Vehicle" class="btn btn-success" style="width: 100%;">
                 </div>
             </div>
 
