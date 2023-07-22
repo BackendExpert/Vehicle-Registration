@@ -5,7 +5,7 @@
         <h3> <i class="fas fa-shuttle-van"></i> Registed Vehicles</h3>
         <hr>
 
-        <a href="{{ url('create') }}"><button class="btn btn-success"><i class="fas fa-plus"></i> Register New Vehicle</button></a>
+        <a href="{{ url('vehicles/create') }}"><button class="btn btn-success"><i class="fas fa-plus"></i> Register New Vehicle</button></a>
         
     </div>
 @endsection
