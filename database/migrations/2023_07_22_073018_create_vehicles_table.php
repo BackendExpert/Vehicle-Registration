@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('vehicle_type');
             $table->string('vehicle_model');
             $table->string('vehicle_color');
+            $table->integer('seats');
             $table->timestamps();
         });
     }
