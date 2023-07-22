@@ -67,7 +67,7 @@ class ProfileController extends Controller
         
         $update_member->update();
 
-        return redirect('/profile/'.$id);
+        return redirect('/profile/'.$id)->with('flash_message', 'Member Data Updated!');
     }
 
     /**
