@@ -31,6 +31,8 @@ class VehicleController extends Controller
     {
         $this->validate($request, [
             'owner' => ['required'],
+            'vehicle_plate_no' => ['required', 'min:10', 'max:11', 'unique:vehicles'],
+            'vehicle_chassis_no' => ['required']
 
         ]);
     }
