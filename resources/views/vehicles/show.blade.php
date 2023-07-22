@@ -9,13 +9,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
             <div class="print-title">
                 <h1>Online Vehicle Registration Application</h1>
                 <hr>
             </div>            
         </div>
-        <div class="col-lg-3"></div>
+        <div class="col-lg-2"></div>
     </div>
 </div>
