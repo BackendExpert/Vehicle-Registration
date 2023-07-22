@@ -45,7 +45,7 @@
                 <div class="col-lg-6">
                     <label for="chassisNo">Vehicle Chassis Number : </label>
                     <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control">
-                    (Must be between 10 and 11 characters)
+                    (Must be between 12 and 15 characters)
                 </div>
             </div>            
             <br><br>
