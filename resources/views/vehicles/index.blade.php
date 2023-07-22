@@ -12,6 +12,9 @@
             <thead class="table-primary">
                 <tr>
                     <th>#</th>
+                    <th>Vehicle Plate Number</th>
+                    <th>Owner</th>
+                    <th></th>
                 </tr>
             </thead>
         </table>
