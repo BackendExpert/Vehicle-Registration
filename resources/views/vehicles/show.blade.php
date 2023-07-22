@@ -19,7 +19,9 @@
         <b>Seats</b> : {{ $view_vehicle->seats }}
 
 
-        
+        @if ()
+            
+        @endif
 
     </div>
 @endsection
