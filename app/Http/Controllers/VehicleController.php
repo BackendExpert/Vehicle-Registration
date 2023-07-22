@@ -44,6 +44,7 @@ class VehicleController extends Controller
         $new_vechicle->vehicle_plate_no = $request->vehicle_plate_no;
         $new_vechicle->vehicle_chassis_no = $request->vehicle_chassis_no;
         $new_vechicle->vehicle_registed_no = $request->vehicle_registed_no;
+        $new_vechicle->owner = $request->owner;
         $new_vechicle->vehicle_type = $request->vehicle_type;
         $new_vechicle->vehicle_model = $request->vehicle_model;
         $new_vechicle->vehicle_color = $request->vehicle_color;
