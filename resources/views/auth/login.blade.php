@@ -48,7 +48,11 @@
                         @csrf
                             <label for="email" class="label-text">{{__('Email Address')}}</label><br>
                             <input type="email" name="email" id="" class="form-input @error('email') is-invalid @enderror" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
+                            @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </form>
                     </div>
                 </div>
