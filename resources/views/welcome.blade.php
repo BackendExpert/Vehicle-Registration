@@ -115,7 +115,8 @@
     <div class="home-content">
         <div class="container">
             @auth
-                
+                <h1>Welcome Back</h1>
+                <a href="{{ url('admin') }}"><button class="btn-login">Dashboard</button></a>
             @else
                 <h1>Welcome to Vehicle Registration</h1>
                 <a href="{{ route('login') }}"><button class="btn-login">Loging Here</button></a>
