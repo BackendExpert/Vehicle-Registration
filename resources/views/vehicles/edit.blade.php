@@ -27,11 +27,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="regNo">Vehicle Registered Number : </label>
-                    <input type="text" name="vehicle_registed_no" id="vehicle_registed_no" class="form-control">
+                    <input type="text" name="vehicle_registed_no" id="vehicle_registed_no" class="form-control" value="{{ $edit_vehicle->vehicle_registed_no }}" disabled>
                 </div>
                 <div class="col-lg-6">
                     <label for="chassisNo">Vehicle Chassis Number : </label>
-                    <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control">
+                    <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control" value="{{ $edit_vehicle->vehicle_chassis_no }}" disabled>
                 </div>
             </div>            
             <br><br>
