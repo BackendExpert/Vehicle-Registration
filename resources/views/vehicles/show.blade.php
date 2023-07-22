@@ -1,4 +1,3 @@
-@if (Auth::user()->name == $view_vehicle->owner)
     @extends('layouts.header')
 
     <style>
@@ -97,32 +96,4 @@
         </div>
     </div>
 
-
-@else
-    
-    @extends('layouts.dash')
-
-    @section('content')
-        <div class="admin-card">
-            <a href="{{ url('/vehicles') }}"><button class="btn btn-primary">Back</button></a>
-            <h3>Vehicle Plate Number {{ $view_vehicle->vehicle_plate_no }} Information</h3>
-            <hr>
-
-            <br><br>
-
-            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
-            <b>Vehicle Plate Number </b> : {{ $view_vehicle->vehicle_plate_no }} <br>
-            <b>Vehicle Chassis Number </b> : ********* <br>
-            <b>Vehicle Registered Number </b> : ********* <br>
-            <b>Vehicle Type </b> : {{ $view_vehicle->vehicle_type }} <br>
-            <b>Vehicle Model </b> : {{ $view_vehicle->vehicle_model }} <br>
-            <b>Vehicle Color </b> : {{ $view_vehicle->vehicle_color }} <br>
-            <b>Vehicle Seats </b> : {{ $view_vehicle->seats }} <br>
-            <b>Vehicle Added Date </b> : {{ $view_vehicle->created_at }} <br>
-            <b>Vehicle Last Update At </b> : {{ $view_vehicle->updated_at }} <br>
-
-        </div>
-    @endsection
-
-@endif 
 
