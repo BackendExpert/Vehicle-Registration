@@ -3,17 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Member;
 
-class UserController extends Controller
+class ProfileController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $members = Member::all();
-        return view('users.index')->with('members', $members);
+        //
     }
 
     /**
@@ -37,8 +35,7 @@ class UserController extends Controller
      */
     public function show(string $id)
     {
-        $members = Member::find($id);
-        return view('users.show')->with('members', $members);
+        //
     }
 
     /**
@@ -46,24 +43,15 @@ class UserController extends Controller
      */
     public function edit(string $id)
     {
-        $members = Member::find($id);
-        return view('users.edit')->with('members', $members);
+        //
     }
-
-    // public function profile(string $id){
-    //     $members = Member::find($id);
-    //     return view('users.profile')->with('members', $members);
-    // }
 
     /**
      * Update the specified resource in storage.
      */
     public function update(Request $request, string $id)
     {
-        $members = Member::find($id);
-        $input = $request->all();
-        $members->update($input);
-        return redirect('users')->with('flash_message', 'Member Data Updated!');  
+        //
     }
 
     /**
@@ -73,5 +61,4 @@ class UserController extends Controller
     {
         //
     }
-   
 }
