@@ -114,8 +114,12 @@
 
     <div class="home-content">
         <div class="container">
-            <h1>Welcome to Vehicle Registration</h1>
-            <a href="{{ route('login') }}"><button class="btn-login">Loging Here</button></a>
+            @auth
+                
+            @else
+                <h1>Welcome to Vehicle Registration</h1>
+                <a href="{{ route('login') }}"><button class="btn-login">Loging Here</button></a>
+            @endauth
         </div>
     </div>
 
