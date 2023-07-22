@@ -43,6 +43,7 @@
                 <div class="col-lg-6">
                     <label for="seats">Vehicle Seats</label>
                     <input type="number" name="seats" id="seats" class="form-control">
+                    (have many seats the vehicle have)
                 </div>
             </div>
 
