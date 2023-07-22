@@ -6,5 +6,11 @@
         <h2><i class="fas fa-shuttle-van"></i> Register New Vehicle</h2>
         <hr>
         <br><br>
+
+        <form action="{{ url('/vehicles') }}" method="POST">
+            @csrf
+
+            
+        </form>
     </div>
 @endsection
