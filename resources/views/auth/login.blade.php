@@ -13,32 +13,31 @@
     }
     .main-title{
         font-size: 40px;
-        color: white;
+        color: black;
         font-weight: 500;
     }
     .login-here{
-        width: 100%;
+        width: 40%;
         padding: 50px 40px;
         background: white;
-
     }
 </style>
 
 @section('content')
-<div class="login-content">
-    <div class="container">
-        <div class="login-here">
-            <span class="main-title">{{__('Login Here')}}</span>
-            <form action="{{ route('login') }}" method="POST">
-            @csrf
+    <div class="login-content">
+        <div class="container">
+            <div class="login-here">
+                <span class="main-title">{{__('Login Here')}}</span>
+                <form action="{{ route('login') }}" method="POST">
+                @csrf
+        
+                    <label for="email">{{__('Email Address')}}</label>
+        
+                </form>
+            </div>
     
-                <label for="email">{{__('Email Address')}}</label>
-    
-            </form>
         </div>
-
     </div>
-</div>
 
     <div class="row justify-content-center">
         <div class="col-md-8">
