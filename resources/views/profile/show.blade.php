@@ -6,9 +6,9 @@
         echo Auth::user()->id;
     @endphp
 
-    @if (Auth::user()->id != $member_profile->id)
+    {{-- @if (Auth::user()->id != $member_profile->id)
     <script>window.location = "/users";</script>
-    @endif
+    @endif --}}
     
 </h1>
 
