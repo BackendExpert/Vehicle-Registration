@@ -21,7 +21,9 @@
                 </tr>
             </thead>
             <tbody>
-
+                @foreach ($vehicle as $veh)
+                    
+                @endforeach
             </tbody>
         </table>
 
