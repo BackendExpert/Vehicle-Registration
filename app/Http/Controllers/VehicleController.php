@@ -97,7 +97,9 @@ class VehicleController extends Controller
 
         // dd($update_vechicle);
 
-        
+        $update_vechicle->update();
+
+        return redirect('/vehicles');
     }
 
     /**
