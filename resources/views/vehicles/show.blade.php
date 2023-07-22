@@ -118,7 +118,7 @@
             <b>Vehicle Model </b> : {{ $view_vehicle->vehicle_model }} <br>
             <b>Vehicle Color </b> : {{ $view_vehicle->vehicle_color }} <br>
             <b>Vehicle Seats </b> : {{ $view_vehicle->seats }} <br>
-            <b>Vehicle Color </b> : {{ $view_vehicle->created_at }} <br>
+            <b>Vehicle Added Date </b> : {{ $view_vehicle->created_at }} <br>
             <b>Vehicle Color </b> : {{ $view_vehicle->updated_at }} <br>
 
         </div>
