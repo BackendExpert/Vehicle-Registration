@@ -87,15 +87,17 @@ class VehicleController extends Controller
             'seats' => ['required'],
         ]);
 
-        $new_vechicle = VehiclesM::find($id);
-        $new_vechicle->vehicle_plate_no = $request->vehicle_plate_no;
-        $new_vechicle->vehicle_chassis_no = $request->vehicle_chassis_no;
-        $new_vechicle->vehicle_type = $request->vehicle_type;
-        $new_vechicle->vehicle_model = $request->vehicle_model;
-        $new_vechicle->vehicle_color = $request->vehicle_color;
-        $new_vechicle->seats = $request->seats;
+        $update_vechicle = VehiclesM::find($id);
+        $update_vechicle->vehicle_plate_no = $request->vehicle_plate_no;
+        $update_vechicle->vehicle_chassis_no = $request->vehicle_chassis_no;
+        $update_vechicle->vehicle_type = $request->vehicle_type;
+        $update_vechicle->vehicle_model = $request->vehicle_model;
+        $update_vechicle->vehicle_color = $request->vehicle_color;
+        $update_vechicle->seats = $request->seats;
 
-        dd($new_vechicle);
+        // dd($update_vechicle);
+
+        
     }
 
     /**
