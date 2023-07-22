@@ -3,7 +3,11 @@
 @section('content')
 <div class="container">
 
-    
+    <div class="login-content">
+        <form action="{{ route('login') }}" method="POST">
+        
+        </form>
+    </div>
 
     <div class="row justify-content-center">
         <div class="col-md-8">
