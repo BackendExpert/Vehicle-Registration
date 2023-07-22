@@ -69,11 +69,15 @@
 
                 <div class="row">
                     <div class="col-lg-6">
-                        <p style="text-align: center;">2023</p>
+                        <span style="text-align: center; padding-bottom: -20px;">2023</span>
+                        <span>_________________________________</span>
+                        <p>Generated Time</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <span style="text-align: center; padding-bottom: -20px;">2023</span>
                         <p>_________________________________</p>
                         <p>Generated Time</p>
                     </div>
-                    <div class="col-lg-6"></div>
                 </div>
 
                 {{-- <div class="row">
