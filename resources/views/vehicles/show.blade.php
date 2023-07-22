@@ -11,5 +11,6 @@
 
         <b>Owner</b> : {{ $view_vehicle->owner }} <br>
         <b>Vehicale Plate Number</b> : {{ $view_vehicle->vehicle_plate_no }} <br>
+        <b>Vehicle Chassis Number</b> : {{ $view_vehicle->vehicle_chassis_no }} <br>
     </div>
 @endsection
