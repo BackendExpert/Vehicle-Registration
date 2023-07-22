@@ -4,11 +4,14 @@
     .login-content{
         text-align: center;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
-        margin-top: -30px;
+        margin-top: -20px;
         padding: 20px 0;
+        height: 100vh;
     }
     .main-title{
         font-size: 40px;
+        color: white;
+        font-weight: 500;
     }
 </style>
 
