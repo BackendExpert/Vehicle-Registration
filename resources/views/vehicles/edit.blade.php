@@ -38,11 +38,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="vehiType">Vehicle Type : </label>
-                    <input type="text" name="vehicle_type" id="vehicle_type" class="form-control">
+                    <input type="text" name="vehicle_type" id="vehicle_type" class="form-control" value="{{ $edit_vehicle->vehicle_type }}" disabled>
                 </div>
                 <div class="col-lg-6">
                     <label for="vehicle_model">Vehicle Model : </label>
-                    <input type="text" name="vehicle_model" id="vehicle_model" class="form-control">
+                    <input type="text" name="vehicle_model" id="vehicle_model" class="form-control" value="{{ $edit_vehicle->vehicle_model }}" disabled>
                 </div>
             </div>
             <br><br>
