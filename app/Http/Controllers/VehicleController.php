@@ -107,6 +107,8 @@ class VehicleController extends Controller
      */
     public function destroy(string $id)
     {
-        
+        $delete_vehicle = VehiclesM::find($id);
+        $delete_vehicle->delete();
+        return back();
     }
 }
