@@ -22,6 +22,8 @@
     <div class="admin-card">
         <h3><i class="fas fa-user"></i> {{ $member_profile->name }}'s Profile</h3>
         <hr>
+        <a href="{{ url('/users') }}"><button class="btn btn-primary">Back</button></a>
+        <br><br>
 
         <div class="row">
             <div class="col-lg-6">
