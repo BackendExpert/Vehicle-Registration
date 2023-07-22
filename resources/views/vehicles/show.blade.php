@@ -40,7 +40,13 @@
                                 @endif
                             </td>
                             <td><b>Vehicle Chassis Number</b></td>
-                            <td>{{ $view_vehicle->vehicle_chassis_no }}</td>
+                            <td>
+                                @if (Auth::user()->name == $view_vehicle->owner)
+                                {{ $view_vehicle->vehicle_chassis_no }}
+                                @else
+                                    ******************
+                                @endif
+                            </td>
                         </tr>
                         <tr>
                             <td colspan="2"><b>Vehicle Registed Number</b></td>
