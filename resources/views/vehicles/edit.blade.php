@@ -6,5 +6,7 @@
         <br><br>
         <h3>Update Information on Vehicle Number {{ $edit_vehicle->vehicle_plate_no }}</h3>
         <hr>
+        <br><br>
+        
     </div>
 @endsection
