@@ -19,7 +19,7 @@
         <b>Seats</b> : {{ $view_vehicle->seats }}
 
 
-        @if ()
+        @if (Auth::user())
             
         @endif
 
