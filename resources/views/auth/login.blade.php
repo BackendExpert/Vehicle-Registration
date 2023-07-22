@@ -30,7 +30,7 @@
         border-radius: 2px;
         border: 1px solid rgb(214, 214, 214);
     }
-    .form-input:active{
+    .form-input:focus{
         border: 1px solid blue;
     }
 </style>
@@ -74,7 +74,18 @@
                                 </label>
                             </div>
 
-                            
+                            <br>
+
+                            <button type="submit" class="btn btn-primary">
+                                {{ __('Login') }}
+                            </button>
+                            <br>
+                            @if (Route::has('password.request'))
+                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    {{ __('Forgot Your Password?') }}
+                                </a>
+                            @endif
+
 
                         </form>
                     </div>
