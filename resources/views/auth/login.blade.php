@@ -31,7 +31,7 @@
             <form action="{{ route('login') }}" method="POST">
             @csrf
     
-    
+                <label for="email">{{__('Email Address')}}</label>
     
             </form>
         </div>
