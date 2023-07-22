@@ -31,6 +31,10 @@
                         <td>Vehicle Owner</td>
                         <td>{{ $view_vehicle->owner }}</td>
                     </tr>
+                    <tr>
+                        <td>Vehicle Plate Number</td>
+                        <td>{{ $view_vehicle->vehicle_plate_no }}</td>
+                    </tr>
                 </table>
             </div>            
         </div>
