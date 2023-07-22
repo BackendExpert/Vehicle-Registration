@@ -1,9 +1,9 @@
 <h1>
 
-    {{ $member_profile->id }}
+    {{ $member_profile->id }} <br>
 
     @php
-        Auth::
+        echo Auth::user()->id;
     @endphp
     
 </h1>
