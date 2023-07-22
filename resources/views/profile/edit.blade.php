@@ -9,6 +9,18 @@
         <h3><i class="fas fa-user-edit"></i> Update {{ $member_profile->name }}'s Profile</h3>
         <hr>
 
+        @if ($errors->any())
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong>Errors : </strong> You got Following Errors while validation this form<br>
+                        <b>{{ $error }}</b>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                @endforeach
+            </ul>
+        @endif
+
         <form action="{{ url('profile/' .$member_profile->id) }}" method="POST">
         
             @csrf
