@@ -24,6 +24,7 @@
                     <input type="email" name="email" id="email" class="form-control" value="{{ $member_profile->email }}">
                 </div>
             </div>
+            <br><br>
             <div class="row">
                 <div class="col-lg-12">
                     <label for="address">Address : </label>
