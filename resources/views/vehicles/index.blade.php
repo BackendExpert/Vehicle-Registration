@@ -22,7 +22,9 @@
             </thead>
             <tbody>
                 @foreach ($vehicles as $vehicle)
-                    
+                    <tr>
+                        <td></td>
+                    </tr>
                 @endforeach
             </tbody>
         </table>
