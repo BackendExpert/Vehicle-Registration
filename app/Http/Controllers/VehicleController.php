@@ -37,6 +37,7 @@ class VehicleController extends Controller
             'vehicle_type' => ['required', 'min:2', 'max:10'],
             'vehicle_model' => ['required', 'min:1', 'max:10'],
             'vehicle_color' => ['required', 'min:2', 'max:10'],
+            'seats' => ['required'],
         ]);
     }
 
