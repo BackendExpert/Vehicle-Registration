@@ -3,6 +3,7 @@
 <style>
     .login-content{
         text-align: center;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
     }
     .main-title{
         font-size: 40px;
