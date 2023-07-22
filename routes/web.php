@@ -41,4 +41,3 @@ Route::get('client', function(){
 
 Route::resource("/users", UserController::class);
 
-Route::resource("/profile", ProfileController::class);
