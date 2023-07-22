@@ -31,9 +31,9 @@
         border: 1px solid rgb(214, 214, 214);
     }
     input[type=email]:focus{
-
+        border: 3px solid #7a1a1a;
     }
-    
+
     .login-btn{
         width: 100%;
         height: 45px;
