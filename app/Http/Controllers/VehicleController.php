@@ -61,6 +61,7 @@ class VehicleController extends Controller
     public function show(string $id)
     {
         $view_vehicle = VehiclesM::find($id);
+        return view('vehicles.show')->with('view_vehicle', $view_vehicle);
     }
 
     /**
