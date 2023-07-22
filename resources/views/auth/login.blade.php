@@ -37,6 +37,14 @@
         width: 100%;
         height: 45px;
         background: rgb(59, 59, 59);
+        color:white;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+    .login-btn:hover{
+        cursor: pointer;
+        background: rgb(36, 36, 36);
+        color: white;
     }
 </style>
 
