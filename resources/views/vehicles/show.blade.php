@@ -7,6 +7,14 @@
         }
     </style>
 
+
+    @if (Auth::user()->name != $view_vehicle->owner)
+        <a href="{{ url('/vehicles') }}"><button class="btn btn-primary">Back</button></a>
+    @else 
+        
+    @endif
+
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
