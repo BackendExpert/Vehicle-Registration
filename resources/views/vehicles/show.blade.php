@@ -47,6 +47,12 @@
                         <td><b>Vehicle Model</b></td>
                         <td>{{ $view_vehicle->vehicle_model }}</td>
                     </tr>
+                    <tr>
+                        <td><b>Vehicle Color</b></td>
+                        <td>{{ $view_vehicle->vehicle_color }}</td>
+                        <td><b>Vehicle Seats</b></td>
+                        <td>{{ $view_vehicle->seats }}</td>
+                    </tr>
                 </table>
             </div>            
         </div>
