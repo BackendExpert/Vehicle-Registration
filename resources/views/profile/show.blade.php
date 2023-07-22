@@ -1,4 +1,4 @@
-<h1>
+{{-- <h1>
 
     {{ $member_profile->id }} <br>
 
@@ -10,4 +10,10 @@
     <script>window.location = "/users";</script>
     @endif
     
-</h1>
+</h1> --}}
+
+@extends('layouts.dash')
+
+@section('content')
+
+@endsection
