@@ -28,13 +28,13 @@
                 <br>
                 <table class="table" border="1">
                     <tr>
-                        <td colspan="2">Vehicle Owner</td>
+                        <td colspan="2"><b>Vehicle Owner</b></td>
                         <td colspan="2">{{ $view_vehicle->owner }}</td>
                     </tr>
                     <tr>
                         <td><b>Vehicle Plate Number</b></td>
                         <td>{{ $view_vehicle->vehicle_plate_no }}</td>
-                        <td>Vehicle Plate Number</td>
+                        <td><b>Vehicle Plate Number</b></td>
                         <td>{{ $view_vehicle->vehicle_plate_no }}</td>
                     </tr>
                 </table>
