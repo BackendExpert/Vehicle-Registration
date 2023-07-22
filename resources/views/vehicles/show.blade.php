@@ -53,6 +53,12 @@
                         <td><b>Vehicle Seats</b></td>
                         <td>{{ $view_vehicle->seats }}</td>
                     </tr>
+                    <tr>
+                        <td><b>Vehicle Added Date</b></td>
+                        <td>{{ $view_vehicle->vehicle_color }}</td>
+                        <td><b>Last Update</b></td>
+                        <td>{{ $view_vehicle->seats }}</td>
+                    </tr>
                 </table>
             </div>            
         </div>
