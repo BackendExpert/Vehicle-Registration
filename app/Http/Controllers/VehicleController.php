@@ -50,6 +50,8 @@ class VehicleController extends Controller
         $new_vechicle->seats = $request->seats;
 
         // dd($new_vechicle);
+        $new_vechicle->save();
+        return redirect('/vehicles');
     }
 
     /**
