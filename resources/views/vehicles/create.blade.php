@@ -34,6 +34,13 @@
                     <input type="text" name="vehicle_model" id="vehicle_model" class="form-control">
                 </div>
             </div>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for=""></label>
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
 
         </form>
     </div>
