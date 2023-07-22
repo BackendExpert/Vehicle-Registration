@@ -70,6 +70,17 @@
 
                 <div class="row">
                     <div class="col-lg-6" style="text-align: left;">
+                        @php
+                            $mytime = Carbon\Carbon::now();
+                            echo $mytime->toDateTimeString();
+                        @endphp 
+                    </div>
+                    <div class="col-lg-6" style="text-align: right;">
+                        _____________________________________________
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6" style="text-align: left;">
                         _____________________________________________
                     </div>
                     <div class="col-lg-6" style="text-align: right;">
