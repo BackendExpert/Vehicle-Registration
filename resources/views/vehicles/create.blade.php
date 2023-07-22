@@ -33,6 +33,7 @@
                     <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control">
                 </div>
             </div>
+            <br><br>
             <div class="row">
                 <div class="col-lg-6">
                     <label for="regNo">Vehicle Registered Number : </label>
