@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->longText('address')->nullable();
+            $table->longText('address')->default('address');
             $table->timestamp('email_verified_at')->nullable();
             $table->integer('role')->default(3); //Admin - 1, staff - 2, user - 3
             $table->string('password');
