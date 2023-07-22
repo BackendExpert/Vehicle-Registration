@@ -31,6 +31,7 @@
         border: 1px solid rgb(214, 214, 214);
         outline: none;
         transition: 0.5s;
+        padding: 0 10px;
     }
     input[type=email]:focus{
         border: 2px solid #6a74ff;
