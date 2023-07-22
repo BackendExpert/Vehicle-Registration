@@ -98,7 +98,7 @@
                 <br>
                 <br>
                 <br>
-                <i class="fas fa-copyright"></i>
+                <i class="fas fa-copyright"></i> All Rights Reserved - Online Vehicle Registration Platform - 2023
             </div>            
         </div>
         <div class="col-lg-2"></div>
