@@ -9,8 +9,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
+        <div class="col-lg-12">
             <div class="print-title">
                 <h1>Online Vehicle Registration Application</h1>
                 <hr>
@@ -103,6 +102,5 @@
                 <button class="btn btn-primary" onclick="window.print();">Print</button>
             </div>            
         </div>
-        <div class="col-lg-1"></div>
     </div>
 </div>
