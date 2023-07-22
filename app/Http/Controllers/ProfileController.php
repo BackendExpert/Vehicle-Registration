@@ -59,6 +59,9 @@ class ProfileController extends Controller
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'address' => ['required', 'string', 'min:5', 'max:300'],
         ]);
+
+        $update_member = Member::find($id);
+        
     }
 
     /**
