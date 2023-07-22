@@ -42,6 +42,12 @@
                     <input type="text" class="form-control" value="{{ $member_profile->updated_at }}" disabled>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <input type="submit" value="Update Member's Information" class="btn btn-success">
+                </div>
+            </div>
         
         </form>
     </div>
