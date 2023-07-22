@@ -69,10 +69,10 @@
                 <br>
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="text-align: left;">
                         ________________________________
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="text-align: right;">
                         ________________________________
                     </div>
                 </div>
