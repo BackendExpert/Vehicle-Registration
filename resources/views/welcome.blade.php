@@ -61,7 +61,7 @@
         padding: 40px 20px;
     }
 
-    .btn-login {
+    .btn-login, .add-vehi {
         margin-top: 20px;
         padding: 15px 35px;
         border: 2px solid orange;
@@ -84,6 +84,16 @@
         padding-left: 12px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .add-vehi{
+        background: orange;
+        color: black;
+        font-weight: 500;
+    }
+    .add-vehi:hover{
+        background: transparent;
+        color: orange;
+        padding: 20px 40px;
     }
 </style>
 
