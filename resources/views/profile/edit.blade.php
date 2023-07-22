@@ -31,6 +31,8 @@
                     <textarea name="address" id="address" cols="30" rows="10" class="form-control" style="resize: none;">{{ $member_profile->address }}</textarea>
                 </div>
             </div>
+            <br><br>
+            
         
         </form>
     </div>
