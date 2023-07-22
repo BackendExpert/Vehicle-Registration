@@ -33,7 +33,7 @@
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6">
                     <div class="login-here">
-                        <span class="main-title"><i class="fas fa-user"></i>{{__('Login Here')}}</span>
+                        <span class="main-title"><i class="fas fa-user"></i> {{__('Login Here')}}</span>
                         <hr>
                         <form action="{{ route('login') }}" method="POST">
                         @csrf
