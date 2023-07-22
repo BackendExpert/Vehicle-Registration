@@ -25,7 +25,8 @@
                         @endphp 
                     </div>
                 </div>
-                <table class="table">
+                <br>
+                <table class="table" border="1">
                     <tr>
                         <td>Vehicle Owner</td>
                         <td>{{ $view_vehicle->owner }}</td>
