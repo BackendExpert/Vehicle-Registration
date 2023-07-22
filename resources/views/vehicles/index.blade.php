@@ -23,7 +23,7 @@
             <tbody>
                 @foreach ($vehicles as $vehicle)
                     <tr>
-                        <td>{{ $loop->iteration }}</td>
+                        <td><b>{{ $loop->iteration }}</b></td>
                     </tr>
                 @endforeach
             </tbody>
