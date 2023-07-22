@@ -37,7 +37,7 @@
                         <hr>
                         <form action="{{ route('login') }}" method="POST">
                         @csrf
-                            <label for="email" class="label-text">{{__('Email Address')}}</label>
+                            <label for="email" class="label-text">{{__('Email Address')}}</label><br>
                             <input type="email" name="email" id="" class="form-input @error('email') is-invalid @enderror">
 
                         </form>
