@@ -49,11 +49,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="vehicle_color"> Vehicle Color</label>
-                    <input type="text" name="vehicle_color" id="vehicle_color" class="form-control" value="{{ $edit_vehicle->vehicle_model }}">
+                    <input type="text" name="vehicle_color" id="vehicle_color" class="form-control" value="{{ $edit_vehicle->vehicle_color }}">
                 </div>
                 <div class="col-lg-6">
                     <label for="seats">Vehicle Seats</label>
-                    <input type="number" name="seats" id="seats" class="form-control" value="{{ $edit_vehicle->vehicle_model }}">
+                    <input type="number" name="seats" id="seats" class="form-control" value="{{ $edit_vehicle->seats }}">
                     (have many seats the vehicle have)
                 </div>
             </div>
