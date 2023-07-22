@@ -1,5 +1,7 @@
 @auth
     
+
+
 @else
 
 <script>window.location = "/";</script>
