@@ -6,6 +6,6 @@
         <hr>
         <br><br>
 
-        <h2>Vehicale Number {{ $ }}</h2>
+        <h2>Vehicale Number {{ $view_vehicle->vehicle_plate_no }} Information</h2>
     </div>
 @endsection
