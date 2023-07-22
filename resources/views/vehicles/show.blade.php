@@ -3,6 +3,7 @@
 <style>
     .print-title{
         text-align: center;
+        padding: 40px 0;
     }
 </style>
 
