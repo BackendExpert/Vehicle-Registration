@@ -39,6 +39,10 @@ class VehicleController extends Controller
             'vehicle_color' => ['required', 'min:2', 'max:10'],
             'seats' => ['required'],
         ]);
+
+        $new_vechicle = new VehiclesM();
+        $new_vechicle->vehicle_plate_no = $request->vehicle_plate_no;
+        $new_vechicle->
     }
 
     /**
