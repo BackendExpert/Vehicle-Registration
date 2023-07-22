@@ -46,6 +46,7 @@
                     (have many seats the vehicle have)
                 </div>
             </div>
+            <br><br>
 
         </form>
     </div>
