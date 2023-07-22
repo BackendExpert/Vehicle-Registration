@@ -24,6 +24,11 @@
                     <input type="email" name="email" id="email" class="form-control" value="{{ $member_profile->email }}">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="address">Address : </label>
+                </div>
+            </div>
         
         </form>
     </div>
