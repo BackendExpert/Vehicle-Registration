@@ -10,8 +10,9 @@
 
         <form action="{{ url('vehicles/' .$edit_vehicle->id) }}" method="POST">
             @csrf
+            @method("PATCH")
 
-            @method("")
+            
         </form>
         
     </div>
