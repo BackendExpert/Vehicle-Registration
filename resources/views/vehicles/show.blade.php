@@ -20,7 +20,7 @@
 
 
         @if (Auth::user()->name == $view_vehicle->owner)
-            
+            <a href=""><button class="btn btn-primary">Print</button></a>
         @endif
 
     </div>
