@@ -34,7 +34,8 @@ class VehicleController extends Controller
             'vehicle_plate_no' => ['required', 'min:10', 'max:11', 'unique:vehicles'],
             'vehicle_chassis_no' => ['required', 'min:12', 'max:15', 'unique:vehicles'],
             'vehicle_registed_no' => ['required', 'min:12', 'max:15', 'unique:vehicles'],
-            'vehicle_type' =>  ['required', 'min:2', 'max:10'],
+            'vehicle_type' => ['required', 'min:2', 'max:10'],
+            'vehicle_model' => ['required', 'min:1', 'max:10'],
         ]);
     }
 
