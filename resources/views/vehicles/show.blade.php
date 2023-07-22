@@ -109,6 +109,15 @@
             <hr>
 
             <br><br>
+
+            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+
         </div>
     @endsection
 
