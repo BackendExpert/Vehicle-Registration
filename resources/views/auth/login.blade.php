@@ -20,6 +20,7 @@
         width: 100%;
         padding: 50px 40px;
         background: white;
+        border-radius: 5px;
     }
 </style>
 
