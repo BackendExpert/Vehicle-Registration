@@ -6,6 +6,6 @@
 
 @section('content')
     <div class="admin-card">
-        <h3>Update</h3>
+        <h3><i class="fas fa-user-edit"></i> Update</h3>
     </div>
 @endsection
