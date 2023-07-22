@@ -67,7 +67,7 @@ class ProfileController extends Controller
         
         $update_member->update();
 
-        return redirect('/users');
+        return redirect('/profile/'.$id);
     }
 
     /**
