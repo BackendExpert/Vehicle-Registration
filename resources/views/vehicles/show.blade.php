@@ -89,7 +89,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6" style="text-align: center;">
-                        Generated Time
+                        <b>Generated Time</b>
                     </div>
                     <div class="col-lg-6" style="text-align: center;">
                         <b>Vehicle Owner</b>
