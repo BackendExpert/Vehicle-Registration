@@ -85,33 +85,6 @@
                     </div>
                 </div>
 
-                {{-- <div class="row">
-                    <div class="col-lg-6" style="text-align: center;">
-                        @php
-                            $mytime = Carbon\Carbon::now();
-                            echo $mytime->toDateTimeString();
-                        @endphp 
-                    </div>
-                    <div class="col-lg-6" style="text-align: center;">
-                        {{ $view_vehicle->owner }}
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6" style="text-align: center;">
-                        _____________________________________________
-                    </div>
-                    <div class="col-lg-6" style="text-align: center;">
-                        _____________________________________________
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6" style="text-align: center;">
-                        <b>Generated Time</b>
-                    </div>
-                    <div class="col-lg-6" style="text-align: center;">
-                        <b>Vehicle Owner</b>
-                    </div>
-                </div> --}}
                 <br>
                 <br>
                 <br>
