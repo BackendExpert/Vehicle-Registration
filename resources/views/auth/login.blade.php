@@ -36,6 +36,7 @@
     .login-btn{
         width: 100%;
         height: 45px;
+        background: rgb(59, 59, 59);
     }
 </style>
 
