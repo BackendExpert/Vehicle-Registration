@@ -46,6 +46,18 @@
                 </div>
             </div>
             <br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="vehicle_color"> Vehicle Color</label>
+                    <input type="text" name="vehicle_color" id="vehicle_color" class="form-control" value="{{ $edit_vehicle->vehicle_model }}">
+                </div>
+                <div class="col-lg-6">
+                    <label for="seats">Vehicle Seats</label>
+                    <input type="number" name="seats" id="seats" class="form-control" value="{{ $edit_vehicle->vehicle_model }}">
+                    (have many seats the vehicle have)
+                </div>
+            </div>
+            <br><br>
 
         </form>
         
