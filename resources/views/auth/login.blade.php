@@ -4,7 +4,7 @@
 <div class="container">
 
     <div class="login-content">
-        <h2>{{__('Login')}}</h2>
+        <h2>{{__('Login Here')}}</h2>
         <form action="{{ route('login') }}" method="POST">
         
         </form>
