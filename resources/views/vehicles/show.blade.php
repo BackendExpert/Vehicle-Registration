@@ -18,6 +18,7 @@
         <b>Vehicle Color</b> : {{ $view_vehicle->vehicle_color }} <br>
         <b>Seats</b> : {{ $view_vehicle->seats }}
 
+        <br><br>
 
         @if (Auth::user()->name == $view_vehicle->owner)
             <a href=""><button class="btn btn-primary">Print</button></a>
