@@ -39,6 +39,10 @@
                     <label for="regNo">Vehicle Registered Number : </label>
                     <input type="text" name="vehicle_registed_no" id="vehicle_registed_no" class="form-control">
                 </div>
+                <div class="col-lg-6">
+                    <label for="chassisNo">Vehicle Chassis Number : </label>
+                    <input type="text" name="vehicle_chassis_no" id="vehicle_chassis_no" class="form-control">
+                </div>
             </div>            
             <br><br>
             <div class="row">
