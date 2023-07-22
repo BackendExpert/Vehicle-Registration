@@ -37,7 +37,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <label for="address">Address</label>
-                <textarea cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
+                <textarea cols="30" rows="10" class="form-control" style="resize: none;" disabled>{{ $member_profile->address }}</textarea>
             </div>
         </div>
     </div>
