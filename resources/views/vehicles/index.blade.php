@@ -21,7 +21,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($vehicle as $veh)
+                @foreach ($vehicles as $vehicle)
                     
                 @endforeach
             </tbody>
