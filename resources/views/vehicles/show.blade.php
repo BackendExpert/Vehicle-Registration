@@ -19,7 +19,7 @@
         <b>Seats</b> : {{ $view_vehicle->seats }}
 
 
-        @if (Auth::user())
+        @if (Auth::user()->name == $view_vehicle->owner)
             
         @endif
 
