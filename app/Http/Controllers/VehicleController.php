@@ -60,7 +60,7 @@ class VehicleController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $view_vehicle = VehiclesM::find($id);
     }
 
     /**
