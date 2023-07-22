@@ -116,7 +116,7 @@
             <b>Vehicle Registered Number </b> : ********* <br>
             <b>Vehicle Type </b> : {{ $view_vehicle->vehicle_type }} <br>
             <b>Vehicle Model </b> : {{ $view_vehicle->vehicle_model }} <br>
-            <b>Vehicle Owner </b> : {{ $view_vehicle->owner }} <br>
+            <b>Vehicle Color </b> : {{ $view_vehicle->vehicle_color }} <br>
 
         </div>
     @endsection
