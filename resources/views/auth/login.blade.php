@@ -30,9 +30,10 @@
         border-radius: 2px;
         border: 1px solid rgb(214, 214, 214);
     }
-    .form-input:focus{
-        border: 1px solid blue;
+    input[type=email]:focus{
+
     }
+    
     .login-btn{
         width: 100%;
         height: 45px;
