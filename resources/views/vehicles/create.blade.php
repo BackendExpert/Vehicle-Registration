@@ -47,6 +47,11 @@
                 </div>
             </div>
             <br><br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <input type="submit" value="Register Vehicle" class="btn btn-success">
+                </div>
+            </div>
 
         </form>
     </div>
