@@ -55,7 +55,7 @@
                     </tr>
                     <tr>
                         <td><b>Vehicle Added Date</b></td>
-                        <td>{{ $view_vehicle->vehicle_color }}</td>
+                        <td>{{ $view_vehicle->created_at }}</td>
                         <td><b>Last Update</b></td>
                         <td>{{ $view_vehicle->seats }}</td>
                     </tr>
