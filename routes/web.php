@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -40,4 +41,4 @@ Route::get('client', function(){
 
 Route::resource("/users", UserController::class);
 
-Route::resource("/profile", )
+Route::resource("/profile", ProfileController::class);
