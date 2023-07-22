@@ -26,12 +26,14 @@
     }
     .form-input{
         width: 100%;
-        height: 40px;
+        height: 50px;
         border-radius: 2px;
         border: 1px solid rgb(214, 214, 214);
+        outline: none;
+        transition: 0.5s;
     }
     input[type=email]:focus{
-        border: 3px solid #7a1a1a;
+        border: 2px solid #6a74ff;
     }
 
     .login-btn{
