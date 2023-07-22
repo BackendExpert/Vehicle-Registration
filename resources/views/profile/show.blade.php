@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <label for="Name">Name : </label>
-                
+                <input type="text" class="form-control" value="{{ $member_profile->name }}" disabled>
             </div>
             <div class="col-lg-6"></div>
         </div>
