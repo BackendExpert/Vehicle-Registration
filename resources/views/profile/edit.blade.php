@@ -32,7 +32,16 @@
                 </div>
             </div>
             <br><br>
-            
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="join">Join Date : </label>
+                    <input type="text" class="form-control" value="{{ $member_profile->created_at }}" disabled>
+                </div>
+                <div class="col-lg-6">
+                    <label for="join">Last Update At : </label>
+                    <input type="text" class="form-control" value="{{ $member_profile->updated_at }}" disabled>
+                </div>
+            </div>
         
         </form>
     </div>
