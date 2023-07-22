@@ -58,6 +58,13 @@
 
                             <label for="password" class="label-text">{{__('Password')}}</label><br>
                             <input type="password" id="password" class="form-input @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                        
+                            @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        
                         </form>
                     </div>
                 </div>
