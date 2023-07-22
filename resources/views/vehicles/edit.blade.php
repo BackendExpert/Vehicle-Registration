@@ -8,7 +8,11 @@
         <hr>
         <br><br>
 
-        <form action="{{ url('vehicles/' .$edit_vehicle->id) }}" method="POST"></form>
+        <form action="{{ url('vehicles/' .$edit_vehicle->id) }}" method="POST">
+            @csrf
+
+            @method("")
+        </form>
         
     </div>
 @endsection
