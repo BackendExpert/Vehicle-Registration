@@ -27,7 +27,7 @@
                 <div class="col-lg-6">
                     <label for="owner">Vehicle Owner : </label>
                     <input type="text" class="form-control" value="@php echo Auth::user()->name; @endphp" disabled><br>
-                    <input type="hidden" name="">
+                    <input type="hidden" name="owner">
                 </div>
                 <div class="col-lg-6">
                     <label for="plateNo">Vehicle Plate Number : </label>
