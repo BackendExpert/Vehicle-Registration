@@ -13,7 +13,7 @@ class VehicleController extends Controller
     public function index()
     {
         $vehicle = VehiclesM::all();
-        return();
+        return view('vehicles.index')->with('vehicle', $vehicle);
     }
 
     /**
