@@ -34,8 +34,8 @@
                     <tr>
                         <td><b>Vehicle Plate Number</b></td>
                         <td>{{ $view_vehicle->vehicle_plate_no }}</td>
-                        <td><b>Vehicle Plate Number</b></td>
-                        <td>{{ $view_vehicle->vehicle_plate_no }}</td>
+                        <td><b>Vehicle Chassis Number</b></td>
+                        <td>{{ $view_vehicle->vehicle_chassis_no }}</td>
                     </tr>
                 </table>
             </div>            
