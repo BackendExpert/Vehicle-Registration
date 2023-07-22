@@ -7,7 +7,7 @@
     @endphp
 
     @if (Auth::user()->id != $member_profile->id)
-        
+    <script>window.location = "/users";</script>
     @endif
     
 </h1>
