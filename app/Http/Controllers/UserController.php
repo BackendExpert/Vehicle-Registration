@@ -50,6 +50,10 @@ class UserController extends Controller
         return view('users.edit')->with('members', $members);
     }
 
+    public function profile(string $id){
+        
+    }
+
     /**
      * Update the specified resource in storage.
      */
