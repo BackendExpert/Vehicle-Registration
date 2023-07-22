@@ -55,7 +55,9 @@ class ProfileController extends Controller
     public function update(Request $request, string $id)
     {
         $this->validate($request, [
-            'name'
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'address' => ['required', 'string', 'min:5', 'max:300'],
         ]);
     }
 
