@@ -45,7 +45,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <input type="submit" value="Update Member's Information" class="btn btn-success">
+                    <input type="submit" value="Update Member's Information" class="btn btn-success" style="width: 100%;">
                 </div>
             </div>
         
