@@ -13,6 +13,7 @@
         <div class="col-lg-6">
             <div class="print-title">
                 <h1>Online Vehicle Registration Application</h1>
+                <hr>
             </div>            
         </div>
         <div class="col-lg-3"></div>
