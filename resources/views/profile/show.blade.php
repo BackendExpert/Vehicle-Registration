@@ -22,5 +22,13 @@
     <div class="admin-card">
         <h3><i class="fas fa-user-edit"></i> Update Profile</h3>
         <hr>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="Name">Name : </label>
+                
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
     </div>
 @endsection
