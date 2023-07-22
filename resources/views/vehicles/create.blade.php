@@ -29,7 +29,10 @@
                     <label for="vehiType">Vehicle Type : </label>
                     <input type="text" name="vehicle_type" id="vehicle_type" class="form-control">
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <label for="vehicle_model">Vehicle Model : </label>
+                    <input type="text" name="vehicle_model" id="vehicle_model" class="form-control">
+                </div>
             </div>
 
         </form>
