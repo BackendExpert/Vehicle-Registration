@@ -2,6 +2,9 @@
 
 <style>
     .login-content{
+
+    }
+    .login-content .main-title{
         text-align: center;
     }
 </style>
@@ -10,7 +13,7 @@
 <div class="container">
 
     <div class="login-content">
-        <h2>{{__('Login Here')}}</h2>
+        <span class="main-title">{{__('Login Here')}}</span>
         <form action="{{ route('login') }}" method="POST">
         
         </form>
