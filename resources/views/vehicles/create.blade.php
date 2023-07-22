@@ -40,7 +40,9 @@
                     <label for="vehicle_color"> Vehicle Color</label>
                     <input type="text" name="vehicle_color" id="vehicle_color" class="form-control">
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <label for=""></label>
+                </div>
             </div>
 
         </form>
