@@ -60,6 +60,9 @@
                         <td>{{ $view_vehicle->updated_at }}</td>
                     </tr>
                 </table>
+
+                * This is computer generated Document
+                
             </div>            
         </div>
         <div class="col-lg-2"></div>
