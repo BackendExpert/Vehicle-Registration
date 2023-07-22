@@ -28,6 +28,7 @@
                         <td>{{ $vehicle->owner }}</td>
                         <td>{{ $vehicle->vehicle_model }}</td>
                         <td>{{ $vehicle->vehicle_type }}</td>
+                        <td>{{}}</td>
                     </tr>
                 @endforeach
             </tbody>
