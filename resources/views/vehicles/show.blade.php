@@ -16,9 +16,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-lg-6">
-                        @php
-                            {{  }}
-                        @endphp 
+                        <b>{{ $view_vehicle->owner }}</b>
                     </div>
                     <div class="col-lg-6">
                         @php
