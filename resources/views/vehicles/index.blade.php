@@ -26,6 +26,7 @@
                         <td><b>{{ $loop->iteration }}</b></td>
                         <td>{{ $vehicle->vehicle_plate_no }}</td>
                         <td>{{ $vehicle->owner }}</td>
+                        <td>{{ $vehicle-> }}</td>
                     </tr>
                 @endforeach
             </tbody>
