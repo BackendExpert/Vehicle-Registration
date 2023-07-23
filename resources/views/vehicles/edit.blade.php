@@ -31,22 +31,22 @@
                     <input type="file" name="frant_ing" id="frant_ing" class="form-control">
                 </div>
                 <div class="col-lg-4">
-                    <label for="back-img">Back of Vehicle (Image)</label>
+                    <label for="back-img">Back of Vehicle (Image)</label><br>
                     <input type="file" name="back_ing" id="back_ing" class="form-control">
                 </div>
                 <div class="col-lg-4">
-                    <label for="left_ing">Left Side of Vehicle (Image)</label>
+                    <label for="left_ing">Left Side of Vehicle (Image)</label><br>
                     <input type="file" name="left_ing" id="left_ing" class="form-control">
                 </div>
             </div>
             <br><br>
             <div class="row">
                 <div class="col-lg-6">
-                    <label for="right_ing">Right Side of Vehicle (Image)</label>
+                    <label for="right_ing">Right Side of Vehicle (Image)</label><br>
                     <input type="file" name="right_ing" id="right_ing" class="form-control">
                 </div>
                 <div class="col-lg-6">
-                    <label for="in_ing">InSide of Vehicle (Image)</label>
+                    <label for="in_ing">InSide of Vehicle (Image)</label><br>
                     <input type="file" name="in_ing" id="in_ing" class="form-control">
                 </div>
             </div>
