@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('vehicles', function (Blueprint $table) {
             $table->id();
             $table->longText('frant_ing');
-            $table->longText('frant_ing');
+            $table->longText('back_ing');
             $table->longText('frant_ing');
             $table->longText('frant_ing');
             $table->longText('frant_ing');
