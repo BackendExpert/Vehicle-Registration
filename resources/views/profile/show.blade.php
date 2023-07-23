@@ -24,7 +24,6 @@
         height: 200px;
         border-radius: 100%;
     }
-
 </style>
 
 
