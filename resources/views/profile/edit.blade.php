@@ -4,6 +4,14 @@
 <script>window.location = "/users";</script>
 @endif
 
+<style>
+    .profile-img-view{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+</style>
+
 @section('content')
     <div class="admin-card">
         <h3><i class="fas fa-user-edit"></i> Update {{ $member_profile->name }}'s Profile</h3>
