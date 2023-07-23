@@ -74,6 +74,11 @@
         font-weight: bold;
         border: none;
     }
+    .profile-img-dash{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
 
     @media (min-width: 768px) {
         #sidebar-wrapper {
