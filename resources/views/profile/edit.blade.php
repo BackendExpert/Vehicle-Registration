@@ -33,6 +33,7 @@
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
                     <label for="profile_img">Profile Image : </label>
+                    <img src="" alt="Profile Image">
                 </div>
                 <div class="col-lg-4"></div>
             </div>
