@@ -110,6 +110,11 @@ class VehicleController extends Controller
     public function update(Request $request, string $id)
     {
         $this->validate($request, [
+            'frant_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'left_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'right_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'in_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'vehicle_plate_no' => ['required', 'min:10', 'max:11'],
             'vehicle_chassis_no' => ['required', 'min:12', 'max:15'],
             'vehicle_type' => ['required', 'min:2', 'max:10'],
