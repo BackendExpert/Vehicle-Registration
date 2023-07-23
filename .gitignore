@@ -3,6 +3,11 @@
 /public/build
 /public/hot
 /public/profile_img
+/public/back_ing
+/public/frant_ing
+/public/in_ing
+/public/left_ing
+/public/right_ing
 /public/storage
 /storage/*.key
 /vendor

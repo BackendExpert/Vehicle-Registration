@@ -52,19 +52,19 @@ class VehicleController extends Controller
         }
         if($request->hasFile('back_ing')){
             $back_img_path = $request->file('back_ing')->store('back_ing', ['disk' => 'my_files']);
-            $new_vechicle->frant_ing = $frant_img_path;
+            $new_vechicle->frant_ing = $back_img_path;
         }
         if($request->hasFile('left_ing')){
             $left_img_path = $request->file('left_ing')->store('left_ing', ['disk' => 'my_files']);
-            $new_vechicle->frant_ing = $frant_img_path;
+            $new_vechicle->frant_ing = $left_img_path;
         }
         if($request->hasFile('right_ing')){
             $right_img_path = $request->file('right_ing')->store('right_ing', ['disk' => 'my_files']);
-            $new_vechicle->frant_ing = $frant_img_path;
+            $new_vechicle->frant_ing = $right_img_path;
         }
         if($request->hasFile('in_ing')){
             $in_img_path = $request->file('in_ing')->store('in_ing', ['disk' => 'my_files']);
-            $new_vechicle->frant_ing = $frant_img_path;
+            $new_vechicle->frant_ing = $in_img_path;
         }
 
         // $new_vechicle->frant_ing = $request->frant_ing;
