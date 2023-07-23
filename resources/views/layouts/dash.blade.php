@@ -131,7 +131,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="{{ URL::asset(Auth::user()->profile_img) }}" alt="Profile Image" class="profile-img-dash"> 
+                            <img src="{{ URL::asset(Auth::user()->profile_img) }}" alt="Profile Image" class="profile-img-dash">  &nbsp;
                             {{ Auth::user()->name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
