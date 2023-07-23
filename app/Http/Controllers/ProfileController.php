@@ -75,11 +75,11 @@ class ProfileController extends Controller
         $update_member->email = $request->email;
         $update_member->address = $request->address;
         
-        dd($update_member);
+        // dd($update_member);
 
-        // $update_member->update();
+        $update_member->update();
 
-        // return redirect('/profile/'.$id);
+        return redirect('/profile/'.$id);
     }
 
     /**
