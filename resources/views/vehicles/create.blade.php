@@ -21,8 +21,17 @@
         @endif
 
 
-        <form action="{{ url('/vehicles') }}" method="POST">
+        <form action="{{ url('/vehicles') }}" method="POST" enctype="multipart/form-data">
             @csrf
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="frant-img">Front of Vehicle (Image)</label>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4"></div>
+            </div>
+
             <div class="row">
                 <div class="col-lg-6">
                     <label for="owner">Vehicle Owner : </label>
