@@ -37,6 +37,7 @@
                 </div>
                 <div class="col-lg-4">
                     <label for="left_ing">Left Side of Vehicle (Image)</label><br>
+                    <img src="{{ URL::asset("$edit_vehicle->left_ing") }}" alt="Profile Image" class="car-img">
                     <input type="file" name="left_ing" id="left_ing" class="form-control">
                 </div>
             </div>
