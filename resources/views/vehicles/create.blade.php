@@ -41,11 +41,11 @@
             <br><br>
             <div class="row">
                 <div class="col-lg-6">
-                    <label for="left_ing">Left Side of Vehicle (Image)</label>
+                    <label for="left_ing">Right Side of Vehicle (Image)</label>
                     <input type="file" name="left_ing" id="left_ing" class="form-control">
                 </div>
                 <div class="col-lg-6">
-                    <label for="left_ing">Left Side of Vehicle (Image)</label>
+                    <label for="left_ing">InSide of Vehicle (Image)</label>
                     <input type="file" name="left_ing" id="left_ing" class="form-control">
                 </div>
             </div>
