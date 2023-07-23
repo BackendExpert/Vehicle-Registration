@@ -35,6 +35,16 @@
                     <br>
                     <table class="table" border="1">
                         <tr>
+                            <td>Frant Of Vehicle</td>
+                            <td>Back Of Vehicle</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+
+                    <table class="table" border="1">
+                        <tr>
                             <td colspan="2"><b>Vehicle Owner</b></td>
                             <td colspan="2">{{ $view_vehicle->owner }}</td>
                         </tr>
