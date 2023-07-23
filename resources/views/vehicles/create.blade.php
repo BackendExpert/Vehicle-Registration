@@ -45,8 +45,8 @@
                     <input type="file" name="right_ing" id="right_ing" class="form-control">
                 </div>
                 <div class="col-lg-6">
-                    <label for="left_ing">InSide of Vehicle (Image)</label>
-                    <input type="file" name="left_ing" id="left_ing" class="form-control">
+                    <label for="in_ing">InSide of Vehicle (Image)</label>
+                    <input type="file" name="in_ing" id="in_ing" class="form-control">
                 </div>
             </div>
 
