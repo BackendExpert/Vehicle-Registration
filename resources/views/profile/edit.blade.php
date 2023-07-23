@@ -24,7 +24,7 @@
             </ul>
         @endif
 
-        <form action="{{ url('profile/' .$member_profile->id) }}" method="POST">
+        <form action="{{ url('profile/' .$member_profile->id) }}" method="POST" enctype="multipart/form-data">
         
             @csrf
             @method("PATCH")
