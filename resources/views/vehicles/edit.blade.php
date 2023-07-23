@@ -32,6 +32,7 @@
                 </div>
                 <div class="col-lg-4">
                     <label for="back-img">Back of Vehicle (Image)</label><br>
+                    <img src="{{ URL::asset("$edit_vehicle->back_ing") }}" alt="Profile Image" class="car-img">
                     <input type="file" name="back_ing" id="back_ing" class="form-control">
                 </div>
                 <div class="col-lg-4">
