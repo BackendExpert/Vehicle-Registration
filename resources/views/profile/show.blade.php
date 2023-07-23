@@ -21,6 +21,7 @@
 <style>
     .profile-img-view{
         width: 100px;
+        height: 100px;
         border-radius: 100%;
     }
 
