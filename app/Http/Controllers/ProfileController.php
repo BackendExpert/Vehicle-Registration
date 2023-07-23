@@ -65,7 +65,12 @@ class ProfileController extends Controller
         ]);
 
         $update_member = Member::find($id);
-        $update_member->profile_img = $request->profile_img;
+
+        if($request->hasFile('profile_img')){
+            $profile_img_path = $request->file('image')->store('image', ['disk' => 'my_files']);
+            $update_member->profile_img = $profile_img_path;
+        }
+
         $update_member->name = $request->name;
         $update_member->email = $request->email;
         $update_member->address = $request->address;
