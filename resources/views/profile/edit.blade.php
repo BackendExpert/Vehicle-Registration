@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    labe
+                    <label for="profile_img"></label>
                 </div>
                 <div class="col-lg-4"></div>
             </div>
