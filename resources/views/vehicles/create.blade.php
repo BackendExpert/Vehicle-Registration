@@ -27,6 +27,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <label for="frant-img">Front of Vehicle (Image)</label>
+                    <input type="file" name="frant_ing" id="frant_ing" class="form-control">
                 </div>
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4"></div>
