@@ -32,7 +32,7 @@ class VehicleController extends Controller
         $this->validate($request, [
             'frant_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
-            'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'left_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'owner' => ['required'],
