@@ -41,7 +41,7 @@
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
                     <label for="profile_img">Profile Image : </label><br>
-                    <img src="{{ URL::asset("$member_profile->profile_img") }}" alt="Profile Image" >
+                    <img src="{{ URL::asset("$member_profile->profile_img") }}" alt="Profile Image" class="profile-img-view">
                     <input type="file" name="profile_img" id="profile_img" class="form-control">
                 </div>
                 <div class="col-lg-4"></div>
