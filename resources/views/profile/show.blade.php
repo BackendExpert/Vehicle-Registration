@@ -29,7 +29,7 @@
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
                 <label for="profile_img">Profile Image : </label><br>
-                <img src="{{ URL::asset("$member_profile->profile_img") }}" alt="Profile Image">
+                <img src="{{ URL::asset("$member_profile->profile_img") }}" alt="Profile Image" class="profile-img-view">
             </div>
             <div class="col-lg-4"></div>
         </div>
