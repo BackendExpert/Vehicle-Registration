@@ -58,7 +58,7 @@ class ProfileController extends Controller
         // dd($request->all());
 
         $this->validate($request, [
-            'profile_img'
+            'profile_img' => [],
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255'],
             'address' => ['required', 'string', 'min:5', 'max:300'],
