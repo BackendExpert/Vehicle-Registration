@@ -39,6 +39,16 @@
                 </div>
             </div>
             <br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="left_ing">Left Side of Vehicle (Image)</label>
+                    <input type="file" name="left_ing" id="left_ing" class="form-control">
+                </div>
+                <div class="col-lg-6">
+                    <label for="left_ing">Left Side of Vehicle (Image)</label>
+                    <input type="file" name="left_ing" id="left_ing" class="form-control">
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-lg-6">
