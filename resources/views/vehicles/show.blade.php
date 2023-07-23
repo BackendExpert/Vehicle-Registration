@@ -37,6 +37,9 @@
                         <tr>
                             <td>Frant Of Vehicle</td>
                             <td>Back Of Vehicle</td>
+                            <td>Left Side Of Vehicle</td>
+                            <td>Right Side Of Vehicle</td>
+                            <td>Inside Of Vehicle</td>
                         </tr>
                         <tr>
                             <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
