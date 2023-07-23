@@ -50,6 +50,7 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="in_ing">InSide of Vehicle (Image)</label><br>
+                    <img src="{{ URL::asset("$edit_vehicle->in_ing") }}" alt="Profile Image" class="car-img">
                     <input type="file" name="in_ing" id="in_ing" class="form-control">
                 </div>
             </div>
