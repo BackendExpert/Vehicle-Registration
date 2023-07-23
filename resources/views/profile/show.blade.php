@@ -18,6 +18,14 @@
 <script>window.location = "/users";</script>
 @endif
 
+<style>
+    .profile-img-view{
+        width: 100px;
+    }
+
+</style>
+
+
 @section('content')
     <div class="admin-card">
         <h3><i class="fas fa-user"></i> {{ $member_profile->name }}'s Profile</h3>
