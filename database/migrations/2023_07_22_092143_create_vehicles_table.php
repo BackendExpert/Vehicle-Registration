@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->longText('frant_ing');
             $table->longText('back_ing');
-            $table->longText('frant_ing');
+            $table->longText('left_ing');
             $table->longText('frant_ing');
             $table->longText('frant_ing');
             $table->string('vehicle_plate_no');
