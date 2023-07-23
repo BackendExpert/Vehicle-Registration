@@ -124,6 +124,28 @@ class VehicleController extends Controller
         ]);
 
         $update_vechicle = VehiclesM::find($id);
+
+        if($request->hasFile('frant_ing')){
+            $frant_img_path = $request->file('frant_ing')->store('frant_ing', ['disk' => 'my_files']);
+            $update_vechicle->frant_ing = $frant_img_path;
+        }
+        if($request->hasFile('back_ing')){
+            $back_img_path = $request->file('back_ing')->store('back_ing', ['disk' => 'my_files']);
+            $update_vechicle->back_ing = $back_img_path;
+        }
+        if($request->hasFile('left_ing')){
+            $left_img_path = $request->file('left_ing')->store('left_ing', ['disk' => 'my_files']);
+            $update_vechicle->left_ing = $left_img_path;
+        }
+        if($request->hasFile('right_ing')){
+            $right_img_path = $request->file('right_ing')->store('right_ing', ['disk' => 'my_files']);
+            $update_vechicle->right_ing = $right_img_path;
+        }
+        if($request->hasFile('in_ing')){
+            $in_img_path = $request->file('in_ing')->store('in_ing', ['disk' => 'my_files']);
+            $update_vechicle->in_ing = $in_img_path;
+        }
+
         $update_vechicle->vehicle_plate_no = $request->vehicle_plate_no;
         $update_vechicle->vehicle_chassis_no = $request->vehicle_chassis_no;
         $update_vechicle->vehicle_type = $request->vehicle_type;
