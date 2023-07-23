@@ -31,6 +31,8 @@ class VehicleController extends Controller
     {
         $this->validate($request, [
             'frant_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'frant_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'frant_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'owner' => ['required'],
             'vehicle_plate_no' => ['required', 'min:10', 'max:11', 'unique:vehicles'],
             'vehicle_chassis_no' => ['required', 'min:12', 'max:15', 'unique:vehicles'],
