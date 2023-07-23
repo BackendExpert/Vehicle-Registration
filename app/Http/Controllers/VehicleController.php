@@ -56,7 +56,7 @@ class VehicleController extends Controller
         }
         if($request->hasFile('left_ing')){
             $left_img_path = $request->file('left_ing')->store('left_ing', ['disk' => 'my_files']);
-            $new_vechicle->frant_ing = $left_img_path;
+            $new_vechicle->left_ing = $left_img_path;
         }
         if($request->hasFile('right_ing')){
             $right_img_path = $request->file('right_ing')->store('right_ing', ['disk' => 'my_files']);
