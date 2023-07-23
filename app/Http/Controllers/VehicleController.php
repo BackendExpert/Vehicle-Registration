@@ -30,6 +30,7 @@ class VehicleController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
+            ''
             'owner' => ['required'],
             'vehicle_plate_no' => ['required', 'min:10', 'max:11', 'unique:vehicles'],
             'vehicle_chassis_no' => ['required', 'min:12', 'max:15', 'unique:vehicles'],
