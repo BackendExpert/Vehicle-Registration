@@ -30,6 +30,14 @@
             @method("PATCH")
 
             <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    labe
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+
+            <div class="row">
                 <div class="col-lg-6">
                     <label for="name">Name : </label>
                     <input type="text" name="name" id="name" class="form-control" value="{{ $member_profile->name }}">
