@@ -2,7 +2,7 @@
 /node_modules
 /public/build
 /public/hot
-/public/Profile_imgs
+/public/profile_img
 /public/storage
 /storage/*.key
 /vendor
