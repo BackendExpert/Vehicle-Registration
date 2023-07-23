@@ -55,22 +55,23 @@ class ProfileController extends Controller
     public function update(Request $request, string $id)
     {
 
-        dd($request->all());
+        // dd($request->all());
 
-        // $this->validate($request, [
-        //     'name' => ['required', 'string', 'max:255'],
-        //     'email' => ['required', 'string', 'email', 'max:255'],
-        //     'address' => ['required', 'string', 'min:5', 'max:300'],
-        // ]);
+        $this->validate($request, [
+            'profile_img'
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255'],
+            'address' => ['required', 'string', 'min:5', 'max:300'],
+        ]);
 
-        // $update_member = Member::find($id);
-        // $update_member->name = $request->name;
-        // $update_member->email = $request->email;
-        // $update_member->address = $request->address;
+        $update_member = Member::find($id);
+        $update_member->name = $request->name;
+        $update_member->email = $request->email;
+        $update_member->address = $request->address;
         
-        // $update_member->update();
+        $update_member->update();
 
-        // return redirect('/profile/'.$id);
+        return redirect('/profile/'.$id);
     }
 
     /**
