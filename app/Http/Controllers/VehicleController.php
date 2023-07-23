@@ -64,7 +64,7 @@ class VehicleController extends Controller
         }
         if($request->hasFile('in_ing')){
             $in_img_path = $request->file('in_ing')->store('in_ing', ['disk' => 'my_files']);
-            $new_vechicle->frant_ing = $in_img_path;
+            $new_vechicle->in_ing = $in_img_path;
         }
 
         // $new_vechicle->frant_ing = $request->frant_ing;
