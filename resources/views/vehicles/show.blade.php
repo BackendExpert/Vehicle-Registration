@@ -43,7 +43,7 @@
                         </tr>
                         <tr>
                             <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
-                            <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
+                            <td><img src="{{ URL::asset("$view_vehicle->back_ing") }}" alt="Profile Image" class="car-img"></td>
                             <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
                             <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
                             <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
