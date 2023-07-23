@@ -47,7 +47,7 @@ class VehicleController extends Controller
 
         $new_vechicle = new VehiclesM();
         $new_vechicle->frant_ing = $request->frant_ing;
-        $new_vechicle->frant_ing = $request->frant_ing;
+        $new_vechicle->back_ing = $request->back_ing;
         $new_vechicle->frant_ing = $request->frant_ing;
         $new_vechicle->frant_ing = $request->frant_ing;
         $new_vechicle->frant_ing = $request->frant_ing;
