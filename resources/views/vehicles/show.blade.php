@@ -39,7 +39,7 @@
                             <td>Back Of Vehicle</td>
                         </tr>
                         <tr>
-                            <td></td>
+                            <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
                         </tr>
                     </table>
 
