@@ -46,7 +46,7 @@
                             <td><img src="{{ URL::asset("$view_vehicle->back_ing") }}" alt="Profile Image" class="car-img"></td>
                             <td><img src="{{ URL::asset("$view_vehicle->left_ing") }}" alt="Profile Image" class="car-img"></td>
                             <td><img src="{{ URL::asset("$view_vehicle->right_ing") }}" alt="Profile Image" class="car-img"></td>
-                            <td><img src="{{ URL::asset("$view_vehicle->frant_ing") }}" alt="Profile Image" class="car-img"></td>
+                            <td><img src="{{ URL::asset("$view_vehicle->in_ing") }}" alt="Profile Image" class="car-img"></td>
                         </tr>
                     </table>
 
