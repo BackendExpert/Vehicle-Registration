@@ -34,8 +34,8 @@
                     <input type="file" name="back_ing" id="back_ing" class="form-control">
                 </div>
                 <div class="col-lg-4">
-                    <label for="frant-img">Left Side of Vehicle (Image)</label>
-                    <input type="file" name="frant_ing" id="frant_ing" class="form-control">
+                    <label for="left_ing">Left Side of Vehicle (Image)</label>
+                    <input type="file" name="left_ing" id="left_ing" class="form-control">
                 </div>
             </div>
             <br><br>
