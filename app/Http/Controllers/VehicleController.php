@@ -131,11 +131,11 @@ class VehicleController extends Controller
         $update_vechicle->vehicle_color = $request->vehicle_color;
         $update_vechicle->seats = $request->seats;
 
-        // dd($update_vechicle);
+        dd($update_vechicle);
 
-        $update_vechicle->update();
+        // $update_vechicle->update();
 
-        return redirect('/vehicles');
+        // return redirect('/vehicles');
     }
 
     /**
