@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('vehicles', function (Blueprint $table) {
             $table->id();
+            $table->longText('frant_ing');
+            $table->longText('frant_ing');
+            $table->longText('frant_ing');
+            $table->longText('frant_ing');
+            $table->longText('frant_ing');
             $table->string('vehicle_plate_no');
             $table->string('vehicle_chassis_no');
             $table->string('vehicle_registed_no');
