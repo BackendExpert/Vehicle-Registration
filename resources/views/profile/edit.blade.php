@@ -34,7 +34,7 @@
                 <div class="col-lg-4">
                     <label for="profile_img">Profile Image : </label>
                     <img src="" alt="Profile Image">
-                    <input type="file" name="" id="" class="form-control">
+                    <input type="file" name="profile_img" id="profile_img" class="form-control">
                 </div>
                 <div class="col-lg-4"></div>
             </div>
