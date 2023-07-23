@@ -60,9 +60,9 @@ class VehicleController extends Controller
         $new_vechicle->vehicle_color = $request->vehicle_color;
         $new_vechicle->seats = $request->seats;
 
-        // dd($new_vechicle);
-        $new_vechicle->save();
-        return redirect('/vehicles');
+        dd($new_vechicle);
+        // $new_vechicle->save();
+        // return redirect('/vehicles');
     }
 
     /**
