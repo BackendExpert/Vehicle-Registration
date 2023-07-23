@@ -46,6 +46,11 @@ class VehicleController extends Controller
         ]);
 
         $new_vechicle = new VehiclesM();
+        $new_vechicle->frant_ing = $request->frant_ing;
+        $new_vechicle->frant_ing = $request->frant_ing;
+        $new_vechicle->frant_ing = $request->frant_ing;
+        $new_vechicle->frant_ing = $request->frant_ing;
+        $new_vechicle->frant_ing = $request->frant_ing;
         $new_vechicle->vehicle_plate_no = $request->vehicle_plate_no;
         $new_vechicle->vehicle_chassis_no = $request->vehicle_chassis_no;
         $new_vechicle->vehicle_registed_no = $request->vehicle_registed_no;
