@@ -33,7 +33,7 @@ class VehicleController extends Controller
             'frant_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'left_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
-            'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
+            'right_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'back_ing' => ['required', 'image', 'mimes:jpeg,jpg,png,gif,svg'],
             'owner' => ['required'],
             'vehicle_plate_no' => ['required', 'min:10', 'max:11', 'unique:vehicles'],
